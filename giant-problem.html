@@ -6,7 +6,7 @@
 <meta name="color-scheme" content="light">
 <meta name="theme-color" content="#FFDD00">
 <title>รับสมัครปัญหายักษ์ | BaNANA × Amazon Quick</title>
-<meta name="description" content="Giant Problem Submission — บอกปัญหาธุรกิจของคุณ ให้เราช่วยหาคำตอบ ส่งปัญหายักษ์ให้ BaNANA × Amazon Quick ช่วยแก้ ใช้เวลาไม่ถึง 3 นาที">
+<meta name="description" content="Giant Problem Submission — บอกปัญหาธุรกิจของคุณ ให้เราช่วยหาคำตอบ ดูก้อนเมฆปัญหาที่ธุรกิจไทยเจอมากที่สุด และส่งปัญหาของคุณใน 3 นาที">
 <meta property="og:type" content="website">
 <meta property="og:title" content="รับสมัคร ปัญหายักษ์ — BaNANA × Amazon Quick">
 <meta property="og:description" content="บอกปัญหาธุรกิจของคุณ ให้เราช่วยหาคำตอบ · ร่วมฟรี ใช้เวลาไม่ถึง 3 นาที">
@@ -44,7 +44,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 .container{width:100%;max-width:1100px;margin:0 auto;padding:0 18px}
 .p-text{background:var(--p-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-[id]{scroll-margin-top:68px}
+
 
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--head);font-weight:600;font-size:16px;min-height:50px;padding:12px 26px;border-radius:999px;border:none;cursor:pointer;transition:transform .15s,box-shadow .15s,background .15s;white-space:nowrap;text-align:center}
 .btn:active{transform:scale(.97)}
@@ -56,22 +56,8 @@ button,input,select,textarea{font:inherit;color:inherit}
 .btn:disabled{opacity:.55;cursor:wait;transform:none}
 .btn-block{width:100%}
 
-/* concept + header */
 .concept{background:#111;color:var(--y);text-align:center;font-family:var(--head);font-size:11.5px;padding:5px 12px}
 .concept b{color:#fff}
-.header{background:rgba(255,255,255,.96);backdrop-filter:saturate(1.4) blur(8px);-webkit-backdrop-filter:saturate(1.4) blur(8px);position:sticky;top:0;z-index:60;border-bottom:1px solid var(--line)}
-.header-inner{display:flex;align-items:center;gap:10px;height:58px}
-.logo{display:flex;align-items:center;gap:7px;flex-shrink:0}
-.logo .mark{width:34px;height:34px;border-radius:9px;display:block}
-.logo .word{font-family:var(--head);font-weight:600;font-size:20px;letter-spacing:-.3px}
-.x{width:1.5px;height:24px;background:var(--line)}
-.qbrand{display:flex;align-items:center;gap:6px;font-family:var(--head);font-weight:600;font-size:15px}
-.qbrand i{width:26px;height:26px;border-radius:7px;display:block}
-.qbrand span{display:none}
-.h-cta{margin-left:auto;display:flex;gap:10px;align-items:center}
-.h-cta .back{display:none;font-family:var(--head);font-size:14px;color:var(--ink-2)}
-.h-cta .btn{min-height:38px;padding:7px 16px;font-size:14px}
-
 /* scan welcome */
 .welcome{display:none;background:var(--y-bg);border-bottom:1px solid var(--y-soft);font-family:var(--head);font-size:14px;text-align:center;padding:8px 14px}
 .welcome.on{display:block}
@@ -142,15 +128,6 @@ button,input,select,textarea{font:inherit;color:inherit}
 
 /* form */
 .form-wrap{display:grid;gap:16px}
-.ideas-card{background:#fff;border-radius:20px;padding:16px}
-.ideas-card h3{font-size:16px;font-weight:600;margin-bottom:10px}
-.ideas{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:0 -16px;padding:0 16px 4px;scroll-snap-type:x proximity}
-.ideas::-webkit-scrollbar{display:none}
-.ideas button{flex-shrink:0;scroll-snap-align:start;background:var(--y-bg);border:1.5px solid var(--y-soft);border-radius:999px;padding:8px 14px;font-family:var(--head);font-size:14px;cursor:pointer;white-space:nowrap;min-height:40px}
-.ideas button:active{background:var(--y-soft)}
-.hint{font-size:12.5px;color:var(--ink-3);margin-top:8px}
-.tip-card{display:none}
-
 .form{background:#fff;border-radius:22px;box-shadow:var(--shadow-lg);overflow:clip}
 .form-top{background:#111;color:#fff;padding:16px 18px;border-radius:22px 22px 0 0}
 .form-top h3{font-size:18px;font-weight:600;color:var(--y);display:flex;justify-content:space-between;align-items:center;gap:10px}
@@ -199,22 +176,6 @@ textarea.inp{min-height:140px;resize:vertical;line-height:1.55}
 .est .yr{font-family:var(--head);font-weight:800;font-size:30px;color:var(--y);line-height:1}
 .est .yr small{font-size:14px;font-weight:500;color:#fff;margin-left:4px}
 .est .meta{font-size:13px;color:#ddd;line-height:1.45}
-.wage{margin-top:14px}
-.wage-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.wage-chips{display:flex;gap:6px;flex-wrap:wrap}
-.wage-chips button{min-height:44px;min-width:62px;padding:0 12px;border-radius:12px;border:1.5px solid var(--line);background:#fff;font-family:var(--head);font-size:15px;cursor:pointer}
-.wage-chips button.on{background:var(--y);border-color:var(--y);font-weight:600}
-.wage-inp{display:flex;align-items:center;gap:6px;background:#fff;border:1.5px solid var(--line);border-radius:12px;height:44px;padding:0 12px;flex:1;min-width:140px}
-.wage-inp input{width:100%;min-width:0;border:none;outline:none;font-family:var(--head);font-weight:700;font-size:18px;background:transparent;-moz-appearance:textfield}
-.wage-inp input::-webkit-outer-spin-button,.wage-inp input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
-.wage-inp span{font-family:var(--head);font-size:13px;color:var(--ink-3);white-space:nowrap}
-.est-k{font-family:var(--head);font-size:12.5px;color:#bbb}
-.est .size{margin-left:auto;flex-shrink:0;text-align:center;font-family:var(--head)}
-.est .size b{display:grid;place-items:center;width:52px;height:52px;border-radius:14px;background:var(--p-grad);font-size:26px;font-weight:800;color:#fff}
-.est .size small{font-size:11px;color:#bbb}
-.est .size.lock b{background:#2a2a2a;border:2px dashed #666;color:var(--y)}
-.size-line{margin-top:10px;font-size:13.5px;color:var(--ink-2);line-height:1.5}
-.size-line b{font-family:var(--head);font-weight:600;color:var(--ink)}
 
 .hp-trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .check{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--ink-2);margin-bottom:10px;cursor:pointer;line-height:1.5}
@@ -228,106 +189,7 @@ textarea.inp{min-height:140px;resize:vertical;line-height:1.55}
 .submit-row small{font-size:12.5px;color:var(--ink-3);text-align:center}
 .draft{font-size:12px;color:var(--green);text-align:center;min-height:18px}
 
-/* success: measuring → reveal */
-.done:focus{outline:none}
-.done{display:none;text-align:center;padding:0 0 26px}
-.done.on{display:block}
-@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-.measure{display:none;padding:56px 18px 60px}
-.done.measuring .measure{display:block}
-.done.measuring .reveal{display:none}
-.m-giant{display:block;width:120px;height:120px;margin:0 auto 8px}
-.measure b{font-family:var(--head);font-size:19px;display:block}
-.measure p{font-size:13.5px;color:var(--ink-3)}
-.m-bar{height:8px;background:var(--bg);border-radius:999px;max-width:220px;margin:14px auto 0;overflow:hidden}
-.m-bar span{display:block;height:100%;width:0;background:var(--p-grad);border-radius:999px}
-.done.measuring .m-bar span{animation:fillbar 1.5s ease-out forwards}
-@keyframes fillbar{to{width:100%}}
 
-.rv-hero{position:relative;overflow:hidden;padding:22px 16px 20px;background:linear-gradient(180deg,#fff 0%,var(--y-bg) 100%)}
-[data-size=M] .rv-hero{background:linear-gradient(180deg,var(--y-soft) 0%,var(--y) 100%)}
-[data-size=L] .rv-hero{background:linear-gradient(165deg,#24063f 0%,#5B0E9E 55%,#8A12C9 100%);color:#fff}
-.thx-k{display:inline-block;font-family:var(--head);font-weight:600;font-size:12.5px;background:#000;color:var(--y);padding:4px 12px;border-radius:999px}
-[data-size=L] .thx-k{background:var(--y);color:#000}
-.thx-h{font-size:24px;font-weight:700;margin-top:10px;line-height:1.3}
-.thx-name{background:var(--p-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
-[data-size=L] .thx-name{background:none;-webkit-text-fill-color:var(--y);color:var(--y)}
-.thx-sub{font-family:var(--head);font-size:15px;color:var(--ink-2);margin-top:4px}
-[data-size=L] .thx-sub{color:#e9dcff}
-
-.stage{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;margin-top:6px;min-height:200px}
-.say{position:relative;z-index:3;background:#fff;color:var(--ink);font-family:var(--head);font-weight:600;font-size:14.5px;line-height:1.35;padding:8px 14px;border-radius:16px;box-shadow:var(--shadow-lg);max-width:270px;margin-bottom:6px}
-.say:after{content:"";position:absolute;left:50%;bottom:-7px;width:14px;height:14px;background:#fff;transform:translateX(-50%) rotate(45deg);border-radius:2px}
-.giant{display:block;position:relative;z-index:2;aspect-ratio:1;width:118px;filter:drop-shadow(0 12px 18px rgba(91,14,158,.3))}
-[data-size=M] .giant{width:172px}
-[data-size=L] .giant{width:244px;filter:drop-shadow(0 16px 28px rgba(0,0,0,.45))}
-.ground{width:86px;height:14px;margin-top:-10px;border-radius:50%;background:rgba(0,0,0,.18);filter:blur(3px)}
-[data-size=M] .ground{width:130px}
-[data-size=L] .ground{width:200px;background:rgba(0,0,0,.35)}
-.burst{position:absolute;left:50%;bottom:0;width:230px;height:230px;margin-left:-115px;border-radius:50%;background:radial-gradient(circle,rgba(255,221,0,.5) 0%,rgba(255,221,0,0) 65%);z-index:1}
-[data-size=M] .burst{width:280px;height:280px;margin-left:-140px;background:radial-gradient(circle,rgba(255,255,255,.75) 0%,rgba(255,255,255,0) 65%)}
-[data-size=L] .burst{width:360px;height:360px;margin-left:-180px;bottom:-40px;background:repeating-conic-gradient(rgba(255,221,0,.22) 0 10deg,rgba(255,221,0,0) 10deg 22deg);-webkit-mask:radial-gradient(circle,#000 30%,transparent 70%);mask:radial-gradient(circle,#000 30%,transparent 70%)}
-.spk{position:absolute;z-index:3;font-size:20px;opacity:0}
-.spk.s1{left:12%;bottom:40%}.spk.s2{right:12%;bottom:58%;font-size:16px}.spk.s3{right:20%;bottom:12%;font-size:18px}
-
-.sz-badge{display:inline-flex;align-items:baseline;gap:8px;margin-top:10px;background:#000;color:var(--y);border-radius:16px;padding:4px 20px 6px;font-family:var(--head)}
-.sz-badge small{font-size:15px;font-weight:500;color:#fff}
-.sz-badge b{font-size:46px;font-weight:800;line-height:1}
-[data-size=L] .sz-badge{background:var(--y);color:#000}
-[data-size=L] .sz-badge small{color:#000}
-.sz-nick{font-family:var(--head);font-weight:700;font-size:22px;margin-top:6px}
-[data-size=L] .sz-nick{color:var(--y)}
-.sz-title{font-family:var(--head);font-size:15px;color:var(--ink-2);margin-top:2px}
-[data-size=L] .sz-title{color:#e9dcff}
-.meter3{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;max-width:340px;margin:14px auto 0}
-.meter3 span{font-family:var(--head);font-weight:700;font-size:16px;line-height:1.2;padding:6px 4px;border-radius:12px;background:rgba(0,0,0,.06);color:rgba(0,0,0,.35)}
-.meter3 span small{display:block;font-size:11px;font-weight:500}
-.meter3 span.on{background:var(--p-grad);color:#fff;box-shadow:0 6px 16px rgba(138,18,201,.35);transform:translateY(-2px)}
-[data-size=L] .meter3 span{background:rgba(255,255,255,.12);color:rgba(255,255,255,.45)}
-[data-size=L] .meter3 span.on{background:var(--y);color:#000;box-shadow:0 6px 18px rgba(255,221,0,.4)}
-.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;max-width:400px;margin:14px auto 0}
-.stats div{background:#fff;color:var(--ink);border-radius:14px;padding:10px 8px}
-.stats b{display:block;font-family:var(--head);font-weight:800;font-size:22px;line-height:1.15}
-.stats span{font-size:12px;color:var(--ink-3)}
-.sz-msg{max-width:400px;margin:12px auto 0;font-size:14.5px;color:var(--ink-2);line-height:1.55}
-[data-size=L] .sz-msg{color:#f1e9ff}
-.perk-box{max-width:400px;margin:14px auto 0;background:#fff;color:var(--ink);border:2px dashed var(--y-deep);border-radius:16px;padding:12px 14px}
-.perk-box small{font-family:var(--head);font-size:12.5px;color:var(--ink-3)}
-.pb-disc{font-family:var(--head);font-size:18px;font-weight:600}
-.pb-disc b{font-size:30px;font-weight:800;color:var(--p1)}
-.pb-perk{font-size:13.5px;color:var(--ink-2)}
-.pb-note{display:inline-block;margin-top:6px;font-family:var(--head);font-size:12px;background:var(--y-soft);padding:2px 10px;border-radius:999px}
-.rv-body{padding:20px 16px 0}
-.done .lead{color:var(--ink-2);margin:0 auto 4px;max-width:460px;font-size:14.5px}
-.recap-d{max-width:480px;margin:16px auto 0;text-align:left}
-.recap-d summary{cursor:pointer;font-family:var(--head);font-size:14px;color:var(--ink-2);padding:8px 0;text-align:center;list-style:none}
-.recap-d summary::-webkit-details-marker{display:none}
-.recap-d summary:after{content:" ▾"}
-.recap-d[open] summary:after{content:" ▴"}
-@media(min-width:600px){.thx-h{font-size:28px}.rv-hero{padding:28px 24px 24px}}
-
-@media(prefers-reduced-motion:no-preference){
-  .m-giant{animation:shake .45s ease-in-out infinite}
-  @keyframes shake{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg) translateY(-4px)}}
-  .done.revealed .reveal{animation:up .35s ease both}
-  .done.revealed .giant{animation:pop .7s cubic-bezier(.2,1.5,.4,1) both,hop 1.3s .8s ease-in-out infinite}
-  .done.revealed[data-size=M] .giant{animation:pop .7s cubic-bezier(.2,1.5,.4,1) both,wiggle 2.2s .8s ease-in-out infinite}
-  .done.revealed[data-size=L] .giant{animation:pop .8s cubic-bezier(.2,1.4,.4,1) both,stomp 1.8s .9s ease-in-out infinite}
-  .done.revealed[data-size=L] .stage{animation:quake .5s .65s ease-in-out 2}
-  .done.revealed[data-size=L] .burst{animation:spin 18s linear infinite}
-  .done.revealed .say{animation:pop .45s .55s both}
-  .done.revealed .sz-badge{animation:pop .5s .45s cubic-bezier(.2,1.6,.4,1) both}
-  .done.revealed .spk{animation:twinkle 2.4s ease-in-out infinite}
-  .done.revealed .spk.s2{animation-delay:.8s}.done.revealed .spk.s3{animation-delay:1.5s}
-  @keyframes pop{0%{opacity:0;transform:scale(.2)}100%{opacity:1;transform:scale(1)}}
-  @keyframes hop{0%,100%{transform:translateY(0)}40%{transform:translateY(-16px)}60%{transform:translateY(0) scale(1.06,.94)}}
-  @keyframes wiggle{0%,100%{transform:rotate(0)}25%{transform:rotate(-5deg)}75%{transform:rotate(5deg)}}
-  @keyframes stomp{0%,100%{transform:translateY(0) scale(1)}45%{transform:translateY(-8px) scale(1.03)}55%{transform:translateY(0) scale(1.05,.95)}}
-  @keyframes quake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
-  @keyframes spin{to{transform:rotate(360deg)}}
-  @keyframes twinkle{0%,100%{opacity:0;transform:scale(.6)}50%{opacity:1;transform:scale(1.1)}}
-}
-@media(prefers-reduced-motion:reduce){.spk{opacity:1}}
 .ticket{display:inline-flex;flex-direction:column;align-items:center;background:var(--y);border-radius:16px;padding:12px 30px;position:relative;margin-bottom:16px}
 .ticket:before,.ticket:after{content:"";position:absolute;top:50%;width:18px;height:18px;border-radius:50%;background:#fff;transform:translateY(-50%)}
 .ticket:before{left:-9px}.ticket:after{right:-9px}
@@ -366,15 +228,9 @@ textarea.inp{min-height:140px;resize:vertical;line-height:1.55}
 .mcta .btn{width:100%;min-height:54px;font-size:17px}
 .mcta.hide{transform:translateY(110px);opacity:0;pointer-events:none}
 
-.footer{background:#fff;border-top:1px solid var(--line);padding:30px 0 calc(96px + var(--safe-b))}
-.f-top{display:flex;flex-direction:column;gap:16px}
-.f-links{display:flex;gap:10px 18px;flex-wrap:wrap;font-family:var(--head);font-size:14.5px;color:var(--ink-2)}
-.f-bottom{border-top:1px solid var(--line);margin-top:20px;padding-top:14px;display:flex;flex-direction:column;gap:6px;font-size:12.5px;color:var(--ink-3)}
 
 /* ============ ≥ 600px ============ */
 @media(min-width:600px){
-  .qbrand span{display:inline}
-  .logo .word{font-size:22px}
   .hero-cta{flex-direction:row;justify-content:center;max-width:none}
   .row2{grid-template-columns:1fr 1fr}
   .pills.role{grid-template-columns:repeat(4,1fr)}
@@ -386,8 +242,6 @@ textarea.inp{min-height:140px;resize:vertical;line-height:1.55}
 }
 /* ============ ≥ 960px (desktop) ============ */
 @media(min-width:960px){
-  .header-inner{height:64px}
-  .h-cta .back{display:inline}
   .hero{padding:44px 0 56px;text-align:left}
   .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:center}
     .mascot-wrap{order:2;min-height:380px;justify-content:center}
@@ -413,9 +267,6 @@ textarea.inp{min-height:140px;resize:vertical;line-height:1.55}
   .tip-card i{width:70px;height:70px;flex-shrink:0}
   .tip-card p{font-size:14px;color:var(--ink-2)}
   .mcta{display:none}
-  .footer{padding-bottom:24px}
-  .f-top{flex-direction:row;justify-content:space-between;align-items:center}
-  .f-bottom{flex-direction:row;justify-content:space-between}
   .toast{bottom:24px}
 }
 @media(max-width:360px){
@@ -429,23 +280,214 @@ textarea.inp{min-height:140px;resize:vertical;line-height:1.55}
   @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* ============ success (thank you) ============ */
+.done:focus{outline:none}
+.done{display:none;text-align:center;padding:26px 18px 30px}
+.done.on{display:block;animation:up .4s ease}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.done .mascot-done{display:block;width:130px;height:130px;margin:0 auto}
+.thx-k{display:inline-block;font-family:var(--head);font-weight:600;font-size:12.5px;background:#000;color:var(--y);padding:4px 12px;border-radius:999px;margin-top:6px}
+.done h3{font-size:25px;font-weight:700;margin-top:10px;line-height:1.3}
+.done .lead{color:var(--ink-2);margin:8px auto 16px;max-width:460px;font-size:15px}
+.done .lead b{color:var(--ink);font-family:var(--head);font-weight:600}
+.same{max-width:460px;margin:0 auto 16px;background:var(--bg);border-radius:16px;padding:14px 16px;text-align:left}
+.same h4{font-size:15px;font-weight:600;margin-bottom:8px}
+.same-row{display:grid;grid-template-columns:1fr auto;gap:2px 10px;align-items:center;margin-bottom:10px}
+.same-row:last-child{margin-bottom:0}
+.same-row b{font-family:var(--head);font-weight:600;font-size:15px}
+.same-row span{font-family:var(--head);font-size:13px;color:var(--p1);font-weight:600;white-space:nowrap}
+.same-row i{grid-column:1/-1;display:block;height:7px;border-radius:999px;background:#e6e0ee;overflow:hidden}
+.same-row i u{display:block;height:100%;border-radius:999px;background:var(--p-grad);width:0;transition:width .8s ease}
+.same-row small{grid-column:1/-1;font-size:12.5px;color:var(--ink-3)}
+.done .btn-block{max-width:460px;margin:0 auto}
+
+/* ============ tag picker ============ */
+.pills.tags span{font-size:14.5px}
+.pills.tags input:disabled+span{opacity:.4;cursor:not-allowed}
+.custom-tag{display:none;margin-top:10px}
+.custom-tag.on{display:block}
+.custom-tag .hint2{font-size:12.5px;color:var(--ink-3);margin-top:4px}
+.tag-count{font-family:var(--head);font-size:12.5px;color:var(--ink-3);margin-top:6px}
+
+/* ============ problem cloud ============ */
+.cloud-sec{background:linear-gradient(180deg,var(--y-bg) 0%,#fff 100%)}
+.cloud-card{background:#fff;border-radius:24px;box-shadow:var(--shadow-lg);padding:16px 14px 18px;position:relative;overflow:hidden}
+.cloud-card:before{content:"";position:absolute;inset:-40% -20% auto auto;width:70%;height:80%;background:radial-gradient(circle,rgba(138,18,201,.08),transparent 65%);pointer-events:none}
+.cloud-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;position:relative}
+.live{display:inline-flex;align-items:center;gap:6px;font-family:var(--head);font-size:12.5px;font-weight:600;color:var(--green);background:#E8F7EE;padding:3px 10px;border-radius:999px}
+.live i{width:8px;height:8px;border-radius:50%;background:#1fa45a;display:block}
+.live.off{color:var(--ink-3);background:var(--bg)}
+.live.off i{background:#aaa}
+.cloud-stat{font-family:var(--head);font-size:14px;color:var(--ink-2)}
+.cloud-stat b{font-size:22px;font-weight:800;color:var(--ink);margin-right:2px}
+.cloud{position:relative;width:100%;min-height:260px;margin:10px 0 4px;transition:height .3s ease}
+.cloud .w{position:absolute;left:0;top:0;font-family:var(--head);font-weight:600;line-height:1.05;white-space:nowrap;background:none;border:none;padding:2px 4px;border-radius:8px;cursor:pointer;color:var(--ink-2);transition:transform .15s,background .15s,opacity .3s;opacity:0}
+.cloud.ready .w{opacity:1}
+.cloud .w:hover,.cloud .w:focus-visible{background:var(--y-bg);outline:none}
+.cloud .w:active{transform:scale(.96)}
+.cloud .w.top{background:var(--p-grad);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:800}
+.cloud .w.top:hover{background:var(--p-grad);-webkit-background-clip:text;background-clip:text}
+.cloud .w.zero{color:#c9c0d6;font-weight:500}
+.cloud .w.mine{background:var(--y);color:#000;-webkit-text-fill-color:#000;box-shadow:0 6px 18px rgba(245,196,0,.5)}
+.cloud .w .n{font-size:.42em;font-weight:600;vertical-align:super;margin-left:2px;opacity:.75}
+.cloud-legend{text-align:center;font-size:12.5px;color:var(--ink-3)}
+.cloud-empty{position:absolute;inset:auto 0 8px;text-align:center;font-family:var(--head);font-size:13px;color:var(--p1)}
+.top5{list-style:none;margin:14px 0 0;padding:14px 0 0;border-top:1px dashed var(--line);display:grid;gap:9px;position:relative}
+.top5 li{display:grid;grid-template-columns:26px 1fr auto;gap:4px 10px;align-items:center}
+.top5 .rk{width:26px;height:26px;border-radius:8px;background:var(--bg);display:grid;place-items:center;font-family:var(--head);font-weight:700;font-size:13px}
+.top5 li:first-child .rk{background:#000;color:var(--y)}
+.top5 b{font-family:var(--head);font-weight:600;font-size:15px}
+.top5 span{font-family:var(--head);font-size:13px;color:var(--ink-3);white-space:nowrap}
+.top5 i{grid-column:2/-1;display:block;height:6px;border-radius:999px;background:var(--bg);overflow:hidden}
+.top5 i u{display:block;height:100%;background:var(--p-grad);border-radius:999px}
+.cloud-cta{display:flex;justify-content:center;margin-top:18px}
+.form-wrap.one{grid-template-columns:1fr;max-width:760px;margin:0 auto}
+@media(min-width:960px){
+  .cloud-card{padding:22px 26px 24px}
+  .cloud{min-height:340px}
+  .top5{grid-template-columns:1fr 1fr;column-gap:28px}
+}
+@media(prefers-reduced-motion:no-preference){
+  .cloud .w.mine{animation:pulse 1.4s ease-in-out 3}
+  @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+  .live i{animation:blink 1.6s ease-in-out infinite}
+  @keyframes blink{50%{opacity:.25}}
+}
+.recap-d{max-width:480px;margin:14px auto 0;text-align:left}
+.recap-d summary{cursor:pointer;font-family:var(--head);font-size:14px;color:var(--ink-2);padding:8px 0;text-align:center;list-style:none}
+.recap-d summary::-webkit-details-marker{display:none}
+.recap-d summary:after{content:" ▾"}
+.recap-d[open] summary:after{content:" ▴"}
+
+/* ============ BaNANA header / footer (เหมือน bnn.in.th) ============ */
+[id]{scroll-margin-top:12px}
+.bn-util{display:none;background:var(--bg);font-family:var(--head);font-size:13.5px;color:var(--ink-2)}
+.bn-util .container{display:flex;justify-content:flex-end}
+.bn-util span{padding:7px 18px;border-left:1px solid #d8d8d8}
+.bn-util span:first-child{border-left:none}
+.bn-header{background:#fff;border-bottom:1px solid var(--line);position:relative;z-index:60}
+.bn-row{display:grid;grid-template-columns:auto auto 1fr auto;align-items:center;gap:6px 12px;padding-top:10px;padding-bottom:10px}
+.bn-burger{width:30px;height:30px;display:flex;flex-direction:column;justify-content:center;gap:5px;background:none;border:none;cursor:pointer;padding:3px}
+.bn-burger i{height:2.5px;background:var(--ink);border-radius:2px;display:block}
+.bn-logo{display:flex;align-items:center;gap:7px;flex-shrink:0}
+.bn-logo .mark{width:36px;height:36px;border-radius:9px;display:block}
+.bn-logo .word{font-family:var(--head);font-weight:600;font-size:24px;letter-spacing:-.3px;color:var(--ink)}
+.bn-allcat{display:none;font-family:var(--head);font-size:16px;align-items:center;gap:6px;white-space:nowrap}
+.bn-search{grid-column:1/-1;grid-row:2;display:flex;align-items:center;border:1.5px solid var(--y-soft);border-radius:999px;padding:4px 4px 4px 14px;background:#fff;min-width:0}
+.bn-search svg{flex-shrink:0}
+.bn-search input{flex:1;border:none;outline:none;font-family:var(--head);font-size:15px;padding:6px 8px;background:transparent;min-width:0}
+.bn-search input::placeholder{color:#8a8a8a}
+.bn-search button{background:var(--y);border:none;border-radius:999px;padding:8px 16px;font-family:var(--head);font-weight:600;font-size:15px;cursor:pointer;color:#000;white-space:nowrap}
+.bn-actions{grid-column:4;display:flex;align-items:center;gap:14px;font-family:var(--head);font-size:16px;white-space:nowrap;justify-self:end}
+.bn-actions a{display:flex;align-items:center;gap:8px}
+.bn-actions .lbl{display:none}
+.bn-actions .sep{width:1px;height:28px;background:var(--line);display:none}
+.bn-subnav{border-top:1px solid var(--line)}
+.bn-subnav .container{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.bn-subnav .container::-webkit-scrollbar{display:none}
+.bn-subnav a{font-family:var(--head);font-size:14.5px;color:var(--ink-2);padding:10px 12px;white-space:nowrap;border-bottom:3px solid transparent}
+.bn-subnav a:hover{color:var(--ink);border-bottom-color:var(--y)}
+.bn-subnav a.on{color:var(--ink);font-weight:600;border-bottom-color:var(--y)}
+
+.bn-services{background:#fff;border-top:1px solid var(--line)}
+.bn-services .container{display:grid;grid-template-columns:1fr 1fr;gap:18px 12px;padding-top:26px;padding-bottom:22px}
+.bn-svc{display:flex;gap:12px;align-items:center}
+.bn-svc i{flex-shrink:0;width:56px;display:grid;place-items:center}
+.bn-svc i svg{max-width:56px;height:auto}
+.bn-svc b{font-family:var(--head);font-weight:600;font-size:15.5px;display:block;line-height:1.3}
+.bn-svc span{font-size:12.5px;color:var(--ink-3);line-height:1.35;display:block}
+.bn-footer{background:#fff;padding:0 0 calc(96px + var(--safe-b))}
+.bn-footer .container{border-top:1px solid var(--line);padding-top:28px}
+.bn-fgrid{display:grid;grid-template-columns:1fr;gap:24px}
+.bn-fbrand p{font-size:15px;color:var(--ink-2);margin:10px 0 14px}
+.bn-store{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--ink);border-radius:6px;padding:8px 14px;font-family:var(--head);font-size:15px;font-weight:500}
+.bn-apps{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+.bn-app{display:inline-flex;align-items:center;gap:7px;background:#000;color:#fff;border-radius:7px;padding:5px 12px;font-family:var(--head);font-size:14px;font-weight:600;line-height:1.05}
+.bn-app small{display:block;font-size:9px;font-weight:400}
+.bn-fcol h4{font-family:var(--head);font-weight:600;font-size:16px;margin-bottom:8px}
+.bn-fcol a{display:block;font-size:15px;color:var(--ink-2);padding:4px 0}
+.bn-fcol a:hover{color:#000;text-decoration:underline}
+.bn-fmeta h4{margin-top:14px}
+.bn-fmeta h4:first-child{margin-top:0}
+.bn-badges{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.bn-badges span{font-family:var(--head);font-weight:800;line-height:1}
+.bd-dbd{color:#2B3990;font-style:italic;font-size:18px;display:flex;flex-direction:column}
+.bd-dbd small{font-size:8px;font-weight:600;color:#C2188B;font-style:normal;margin-top:2px}
+.bd-mc{display:flex;align-items:center;gap:0}
+.bd-mc i{width:20px;height:20px;border-radius:50%;background:#EB001B;display:block}
+.bd-mc i+i{background:#F79E1B;margin-left:-8px;opacity:.95}
+.bd-mc em{font-style:italic;font-size:10.5px;color:#C2410C;margin-left:6px;font-weight:700}
+.bd-visa{color:#1A1F71;font-size:18px;font-style:italic;display:flex;flex-direction:column}
+.bd-visa small{font-size:9px;font-weight:600}
+.bd-kerry{color:#F37021;font-size:16px;letter-spacing:1px;display:flex;flex-direction:column;align-items:center}
+.bd-kerry small{font-size:7px;letter-spacing:3px;color:#888}
+.bd-dhl{background:#FFCC00;color:#D40511;font-style:italic;font-size:17px;padding:4px 14px;letter-spacing:1px}
+.bn-socials{display:flex;gap:10px;flex-wrap:wrap}
+.bn-soc svg{display:block}
+.bn-fbottom{border-top:1px solid var(--line);margin-top:24px;padding-top:14px;display:flex;flex-direction:column;gap:6px;font-size:12.5px;color:var(--ink-3)}
+.note-priv{font-size:12.5px;color:var(--ink-3);margin-top:2px}
+.consent-note{font-size:12.5px;color:var(--ink-3);text-align:center;margin-top:12px;line-height:1.5}
+
+@media(min-width:600px){
+  .bn-actions .lbl{display:inline}
+  .bn-actions .sep{display:block}
+  .bn-services .container{grid-template-columns:repeat(4,1fr)}
+  .bn-svc{flex-direction:column;text-align:center;gap:8px}
+  .bn-fgrid{grid-template-columns:1fr 1fr}
+}
+@media(min-width:960px){
+  [id]{scroll-margin-top:124px}
+  .bn-util{display:block}
+  .bn-header{position:sticky;top:0}
+  .bn-row{display:flex;gap:22px;height:76px;padding-top:0;padding-bottom:0}
+  .bn-burger{order:0}
+  .bn-logo .mark{width:46px;height:46px;border-radius:10px}
+  .bn-logo .word{font-size:30px}
+  .bn-allcat{display:flex}
+  .bn-search{flex:1;max-width:500px;grid-column:auto;grid-row:auto}
+  .bn-actions{margin-left:auto;gap:22px}
+  .bn-services .container{padding-top:34px;padding-bottom:30px}
+  .bn-svc{flex-direction:row;text-align:left;gap:14px;padding:0 14px;border-left:1px solid var(--line)}
+  .bn-svc:first-child{border-left:none}
+  .bn-fgrid{grid-template-columns:1.2fr 1fr 1.2fr 1fr 1.1fr;gap:28px}
+  .bn-footer{padding-bottom:24px}
+  .bn-fbottom{flex-direction:row;justify-content:space-between}
+}
 </style>
-</head>
-<body>
+</head><body>
 
 <div class="concept">⚠️ <b>Concept mockup</b> – D.O.T. Project 2026 Team 3 · ไม่ใช่เว็บไซต์ทางการ</div>
 
-<header class="header">
-  <div class="container header-inner">
-    <a class="logo" href="./" aria-label="BaNANA หน้าแรก"><i class="mark banana-img" role="img" aria-label="BaNANA"></i><span class="word">BaNANA</span></a>
-    <span class="x" aria-hidden="true"></span>
-    <div class="qbrand"><i class="quick-img" role="img" aria-label="Amazon Quick"></i><span>Amazon Quick</span></div>
-    <div class="h-cta">
-      <a class="back" href="./">← กลับหน้า Amazon Quick</a>
-      <a class="btn btn-p" href="#submit">ส่งปัญหา</a>
+<div class="bn-util"><div class="container"><span>จัดสเปคคอม E-QUIP</span><span>ค้นหาร้านใกล้คุณ</span><span>TH ⌄</span></div></div>
+
+<header class="bn-header" id="bnHeader">
+  <div class="container bn-row">
+    <button class="bn-burger" type="button" aria-label="เมนู"><i></i><i></i><i></i></button>
+    <a class="bn-logo" href="./" aria-label="BaNANA หน้าแรก"><i class="mark banana-img" role="img" aria-label="BaNANA"></i><span class="word">BaNANA</span></a>
+    <div class="bn-allcat">ทั้งหมด <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="#1A1A1A" stroke-width="2"/></svg></div>
+    <form class="bn-search" action="./" role="search" onsubmit="return false">
+      <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="#777" stroke-width="2"/><path d="M20 20l-4-4" stroke="#777" stroke-width="2" stroke-linecap="round"/></svg>
+      <input type="text" placeholder="ค้นหาสินค้าที่ต้องการที่นี่....." aria-label="ค้นหาสินค้า">
+      <button type="button">✦ ค้นหา</button>
+    </form>
+    <div class="bn-actions">
+      <a href="./"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" fill="none" stroke="#1A1A1A" stroke-width="1.8"/><path d="M4 21c1-4 4.5-6 8-6s7 2 8 6" fill="none" stroke="#1A1A1A" stroke-width="1.8"/></svg><span class="lbl">เข้าสู่ระบบ</span></a>
+      <span class="sep"></span>
+      <a href="./" aria-label="ตะกร้าสินค้า"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h11l2-8H6.2" fill="none" stroke="#1A1A1A" stroke-width="1.8" stroke-linejoin="round"/><circle cx="9" cy="19.5" r="1.4" fill="#1A1A1A"/><circle cx="17" cy="19.5" r="1.4" fill="#1A1A1A"/></svg></a>
     </div>
   </div>
+  <nav class="bn-subnav" aria-label="แคมเปญ Amazon Quick"><div class="container">
+    <a href="./">Amazon Quick</a>
+    <a class="on" href="#top">ส่งปัญหายักษ์</a>
+    <a href="#cloud">ก้อนเมฆปัญหา</a>
+    <a href="./#quiz">วัดไซซ์ยักษ์</a>
+    <a href="./#packages">แพ็กเกจ</a>
+    <a href="./#lucky">ลุ้นรางวัล</a>
+    <a href="#faq">คำถามที่พบบ่อย</a>
+  </div></nav>
 </header>
+
 <div class="welcome" id="welcome">👋 สแกนจากโปสเตอร์มาใช่ไหม? <b>กรอกได้เลย ไม่ถึง 3 นาที</b></div>
 
 <!-- ============ HERO ============ -->
@@ -462,9 +504,108 @@ textarea.inp{min-height:140px;resize:vertical;line-height:1.55}
       <p class="sub">บอกปัญหาธุรกิจของคุณ <b>ให้เราช่วยหาคำตอบ</b></p>
       <div class="hero-cta">
         <a class="btn btn-p" href="#submit">ส่งปัญหายักษ์ของฉัน →</a>
-        <a class="btn btn-o" href="#how">ดูวิธีร่วมกิจกรรม</a>
+        <a class="btn btn-o" href="#cloud">☁️ ดูก้อนเมฆปัญหา</a>
       </div>
-      <div class="facts"><span>⏱ ไม่ถึง 3 นาที</span><span>🆓 ร่วมฟรี</span><span>🎬 เรื่องเด่นได้ออก Content Series</span></div>
+      <div class="facts"><span>⏱ ไม่ถึง 1 นาที</span><span>🙈 ไม่ต้องใส่ชื่อ</span><span>☁️ ทุกเรื่องขึ้นก้อนเมฆ</span><span>🎬 เรื่องเด่นได้ออก Content Series</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLOUD ============ -->
+<section class="section cloud-sec" id="cloud">
+  <div class="container">
+    <div class="sec-head"><span class="kicker">☁️ ก้อนเมฆปัญหายักษ์</span><h2>คนอื่นเจอปัญหาอะไรกันบ้าง?</h2><p>ยิ่งมีคนส่งเรื่องเดียวกันเยอะ คำนั้นยิ่งตัวใหญ่ ปัญหาที่ใหญ่ที่สุดจะถูกหยิบไปทำ Content Series ก่อน</p></div>
+    <div class="cloud-card">
+      <div class="cloud-top"><span class="live off" id="liveBadge"><i></i><span id="liveTxt">กำลังโหลด...</span></span><div class="cloud-stat"><b id="cTotal">0</b> เรื่องที่ส่งเข้ามา</div></div>
+      <div class="cloud" id="cloudBox" role="list" aria-label="ก้อนเมฆปัญหา ยิ่งตัวใหญ่ยิ่งมีคนเจอเยอะ"></div>
+      <div class="cloud-legend">👆 แตะคำที่ตรงกับคุณ เพื่อส่งปัญหาเรื่องนั้นได้เลย</div>
+      <ol class="top5" id="top5" aria-label="ปัญหาที่เจอเยอะที่สุด"></ol>
+    </div>
+    <div class="cloud-cta"><a class="btn btn-p" href="#submit">ไม่เห็นปัญหาของคุณ? ส่งเลย →</a></div>
+  </div>
+</section>
+
+<!-- ============ FORM ============ -->
+<section class="section sec-gray" id="submit">
+  <div class="container">
+    <div class="sec-head"><span class="kicker">ส่งปัญหายักษ์</span><h2>เล่าให้เราฟังหน่อย ยักษ์ของคุณคืออะไร?</h2><p>ไม่ต้องใส่ชื่อหรือเบอร์ ใช้เวลาไม่ถึง 1 นาที · ช่องที่มี <span style="color:var(--red)">*</span> จำเป็นต้องกรอก</p></div>
+    <div class="form-wrap one">
+      <div class="form" id="formCard">
+        <div class="form-top"><h3>🗡️ Giant Problem Submission <small id="progTxt">0/2</small></h3><p id="formSub">ตอบ 2 ข้อ ก็ส่งได้แล้ว</p><div class="prog" role="progressbar" aria-label="ความคืบหน้า" aria-valuemin="0" aria-valuemax="100"><i id="bar"></i></div></div>
+
+        <form class="form-body" id="gform" novalidate>
+          <fieldset class="fs">
+            <legend><b>1</b> ปัญหายักษ์ของคุณ</legend>
+            <div class="field">
+              <span class="lab" id="tagL">ปัญหาของคุณเกี่ยวกับเรื่องอะไร <em>*</em> <small>เลือกได้ 1–3 ข้อ · ใช้รวมเป็นก้อนเมฆปัญหา</small></span>
+              <div class="pills tags" role="group" aria-labelledby="tagL" id="tagBox"></div>
+              <div class="custom-tag" id="customWrap">
+                <input class="inp" id="customTag" maxlength="24" placeholder="พิมพ์ปัญหาสั้น ๆ เช่น จ่ายเงินเดือนพนักงาน" aria-label="ปัญหาอื่น ๆ">
+                <div class="hint2">สั้น ๆ ไม่เกิน 24 ตัวอักษร · จะขึ้นก้อนเมฆเมื่อมีคนส่งคำเดียวกันตั้งแต่ 2 คน</div>
+              </div>
+              <div class="tag-count" id="tagCount">เลือกแล้ว 0/3</div>
+              <div class="err">เลือกอย่างน้อย 1 ข้อ (หรือพิมพ์ในช่อง อื่น ๆ)</div>
+            </div>
+            <div class="field">
+              <label for="story">เล่ารายละเอียด <em>*</em> <small>เกิดอะไรขึ้น บ่อยแค่ไหน ตอนนี้แก้ยังไงอยู่</small></label>
+              <textarea class="inp" id="story" name="story" maxlength="1000" placeholder="เช่น ร้านเรามีแอดมิน 2 คน ช่วง 11.11 แชตเข้ามาวันละ 300+ ข้อความ ตอบไม่ทันจนลูกค้าหายไปซื้อร้านอื่น ตอนนี้ใช้วิธีก๊อปข้อความตอบเองทีละอัน..."></textarea>
+              <div class="counter"><span id="cnt">0</span>/1000</div>
+              <div class="note-priv">🔒 ไม่ต้องใส่ชื่อ เบอร์ หรือชื่อลูกค้าในเรื่องเล่า</div>
+              <div class="err">เล่าเพิ่มอีกนิด อย่างน้อย 15 ตัวอักษร</div>
+            </div>
+            <div class="field">
+              <span class="lab" id="impactL">ผลกระทบ <small>เลือกได้หลายข้อ</small></span>
+              <div class="pills" role="group" aria-labelledby="impactL">
+                <label><input type="checkbox" name="impact" value="เสียเวลา"><span>⏱ เสียเวลา</span></label>
+                <label><input type="checkbox" name="impact" value="เสียเงิน"><span>💸 เสียเงิน</span></label>
+                <label><input type="checkbox" name="impact" value="เสียลูกค้า"><span>🙅 เสียลูกค้า</span></label>
+                <label><input type="checkbox" name="impact" value="ข้อมูลผิดพลาด"><span>⚠️ ข้อมูลผิดพลาด</span></label>
+                <label><input type="checkbox" name="impact" value="ทีมเหนื่อย / หมดไฟ"><span>😮‍💨 ทีมเหนื่อย</span></label>
+                <label><input type="checkbox" name="impact" value="โตต่อไม่ได้"><span>📉 โตต่อไม่ได้</span></label>
+              </div>
+            </div>
+          </fieldset>
+          <div class="hp-trap" aria-hidden="true"><label for="hp">เว้นว่างไว้</label><input id="hp" name="website" tabindex="-1" autocomplete="off"></div>
+
+          <div class="submit-row">
+            <button class="btn btn-p btn-block" type="button" id="sendBtn">ส่งปัญหายักษ์ 🚀</button>
+            <small>ส่งได้มากกว่า 1 ปัญหา · ร่วมกิจกรรมฟรี</small>
+          </div>
+          <p class="consent-note">เมื่อกดส่ง เรื่องของคุณจะถูกนับรวมในก้อนเมฆปัญหา และอาจถูกนำไปเล่าต่อใน Content Series ของ BaNANA แบบไม่ระบุตัวตน</p>
+          <div class="draft" id="draft" aria-live="polite"></div>
+        </form>
+
+        <div class="done" id="done" tabindex="-1" aria-live="polite">
+          <i class="mascot-done mascot-img float" aria-hidden="true"></i>
+          <span class="thx-k">🎉 ส่งปัญหายักษ์เรียบร้อย</span>
+          <h3>ขอบคุณที่เล่าให้เราฟังนะ <span class="p-text">💜</span></h3>
+          <p class="lead">ปัญหาของคุณถูกเพิ่มเข้า <b>ก้อนเมฆปัญหายักษ์</b> แล้ว ทีม BaNANA × Amazon Quick จะอ่านทุกเรื่อง และหยิบปัญหาที่คนเจอเยอะที่สุดไปทำ Content Series</p>
+          <div class="ticket"><small>หมายเลขเรื่องของคุณ</small><b id="tNo">GP-0000</b><button type="button" id="copyNo">คัดลอกหมายเลข</button></div>
+          <div class="same" id="same"></div>
+          <a class="btn btn-p btn-block" href="#cloud" id="seeCloud">☁️ ดูปัญหาของคุณในก้อนเมฆ</a>
+          <div class="done-actions" style="margin-top:10px">
+            <div class="share-row">
+              <button class="btn btn-y" id="shareBtn" type="button">📣 ชวนเพื่อนมาส่งปัญหา</button>
+              <a class="btn btn-line" id="lineBtn" href="#" target="_blank" rel="noopener">แชร์ทาง LINE</a>
+            </div>
+          </div>
+          <details class="recap-d"><summary>ดูสรุปเรื่องที่ส่ง</summary><div class="recap" id="recap"></div></details>
+          <button class="again" id="againBtn" type="button">+ ส่งอีกปัญหา</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW ============ -->
+<section class="section sec-yellow" id="how">
+  <div class="container">
+    <div class="sec-head"><span class="kicker">ขั้นตอน</span><h2>4 ขั้น จากปัญหาของคุณ สู่คำตอบ</h2><p>เราคัดเรื่องที่น่าสนใจไปแก้จริงด้วย Amazon Quick แล้วเล่าต่อเป็น Content Series</p></div>
+    <div class="steps">
+      <div class="step now"><div class="n">1</div><b>สแกน QR แล้วส่งปัญหา</b><span>เลือกประเภทปัญหา แล้วเล่าสั้น ๆ ว่าเกิดอะไรขึ้น ไม่ต้องใส่ชื่อ</span><span class="ph">👉 คุณอยู่ตรงนี้</span></div>
+      <div class="step"><div class="n">2</div><b>รวมเป็นก้อนเมฆปัญหา</b><span>ทุกเรื่องถูกนับรวม ปัญหาที่คนเจอเยอะที่สุดจะตัวใหญ่ที่สุด ทีมเลือกเรื่องเด่นไปทำ Content</span><span class="ph">⏳ ขั้นต่อไป</span></div>
+      <div class="step"><div class="n">3</div><b>ปราบยักษ์ด้วย Amazon Quick</b><span>ทีมหยิบปัญหายอดฮิตมาลองแก้จริงด้วย agent / workflow ของ Amazon Quick</span><span class="ph">⭐ ปัญหาที่ติดอันดับ</span></div>
+      <div class="step"><div class="n">4</div><b>ออกอากาศเป็น Case Study</b><span>วิธีแก้กลายเป็น Content Series ให้ทุกคนที่เจอปัญหาเดียวกันทำตามได้</span><span class="ph">🎬 เร็ว ๆ นี้</span></div>
     </div>
   </div>
 </section>
@@ -481,222 +622,14 @@ textarea.inp{min-height:140px;resize:vertical;line-height:1.55}
   </div>
 </section>
 
-<!-- ============ HOW ============ -->
-<section class="section sec-yellow" id="how">
-  <div class="container">
-    <div class="sec-head"><span class="kicker">ขั้นตอน</span><h2>4 ขั้น จากปัญหาของคุณ สู่คำตอบ</h2><p>เราคัดเรื่องที่น่าสนใจไปแก้จริงด้วย Amazon Quick แล้วเล่าต่อเป็น Content Series</p></div>
-    <div class="steps">
-      <div class="step now"><div class="n">1</div><b>สแกน QR แล้วส่งปัญหา</b><span>เล่าปัญหาที่เจอ เสียเวลาเท่าไร และตอนนี้แก้ยังไงอยู่</span><span class="ph">👉 คุณอยู่ตรงนี้</span></div>
-      <div class="step"><div class="n">2</div><b>ทีมคัดเลือกเรื่องเด่น</b><span>ทีม BaNANA × Amazon Quick อ่านทุกเรื่อง และติดต่อเจ้าของเรื่องที่ถูกเลือก</span><span class="ph">⏳ ขั้นต่อไป</span></div>
-      <div class="step"><div class="n">3</div><b>ปราบยักษ์ด้วย Amazon Quick</b><span>ผู้เชี่ยวชาญช่วยตั้งค่า agent / workflow แก้ปัญหานั้นกับงานจริงของคุณ</span><span class="ph">⭐ เฉพาะเรื่องที่ถูกเลือก</span></div>
-      <div class="step"><div class="n">4</div><b>ออกอากาศเป็น Case Study</b><span>เรื่องของคุณกลายเป็น Content Series ให้คนที่เจอปัญหาเดียวกันได้เรียนรู้</span><span class="ph">🎬 เร็ว ๆ นี้</span></div>
-    </div>
-  </div>
-</section>
-
 <!-- ============ PERKS ============ -->
 <section class="section" id="perks">
   <div class="container">
     <div class="sec-head"><span class="kicker">ส่งแล้วได้อะไร</span><h2>ส่งเรื่องเดียว ได้มากกว่าคำตอบ</h2></div>
     <div class="perks">
-      <div class="perk dark"><div class="big">1:1</div><h3>ได้ทีมช่วยแก้ปัญหาจริง</h3><p>เรื่องที่ถูกเลือกจะได้ผู้เชี่ยวชาญ Amazon Quick ช่วยออกแบบวิธีแก้กับงานของคุณโดยตรง</p></div>
-      <div class="perk"><div class="big">🎬</div><h3>ธุรกิจคุณได้ออกสื่อ</h3><p>เรื่องเด่นจะถูกนำไปทำเป็น Content Series และ Case Study บนช่องทางของ BaNANA</p></div>
-      <div class="perk"><div class="big">🗡️</div><h3>ต่อด้วย Trade-in Giant</h3><p>วัดไซซ์ยักษ์ของคุณ รับโค้ดส่วนลดแพ็กเกจ Amazon Quick 5–15% และสิทธิ์ลุ้นรางวัล</p><span class="tag">ทุกคนที่ส่งไปต่อได้ทันที</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ FORM ============ -->
-<section class="section sec-gray" id="submit">
-  <div class="container">
-    <div class="sec-head"><span class="kicker">ส่งปัญหายักษ์</span><h2>เล่าให้เราฟังหน่อย ยักษ์ของคุณคืออะไร?</h2><p>ช่องที่มี <span style="color:var(--red)">*</span> จำเป็นต้องกรอก</p></div>
-    <div class="form-wrap">
-      <aside class="aside">
-        <div class="ideas-card">
-          <h3>💡 นึกไม่ออก? แตะเพื่อเริ่มจากตัวอย่าง</h3>
-          <div class="ideas" id="ideas"></div>
-          <p class="hint">แตะแล้วจะเติมหัวข้อให้ แก้ไขต่อเป็นเรื่องของคุณได้เลย</p>
-        </div>
-        <div class="tip-card"><i class="mascot-img" aria-hidden="true"></i><p><b>ยิ่งเล่าละเอียด ยิ่งมีโอกาสถูกเลือก</b> บอกว่าทำอะไรอยู่ ใช้เครื่องมืออะไร และอยากให้ผลลัพธ์ออกมาเป็นแบบไหน</p></div>
-      </aside>
-
-      <div class="form" id="formCard">
-        <div class="form-top"><h3>🗡️ Giant Problem Submission <small id="progTxt">0/6</small></h3><p id="formSub">กรอก 3 ส่วน ใช้เวลาไม่ถึง 3 นาที</p><div class="prog" role="progressbar" aria-label="ความคืบหน้า" aria-valuemin="0" aria-valuemax="100"><i id="bar"></i></div></div>
-
-        <form class="form-body" id="gform" novalidate>
-          <fieldset class="fs">
-            <legend><b>1</b> ปัญหายักษ์ของคุณ</legend>
-            <div class="field">
-              <label for="title">ชื่อปัญหา <em>*</em></label>
-              <input class="inp" id="title" name="title" maxlength="80" enterkeyhint="next" placeholder="เช่น ตอบแชตลูกค้าไม่ทันช่วงโปรโมชัน">
-              <div class="err">ตั้งชื่อปัญหาสั้น ๆ ก่อนนะ (อย่างน้อย 3 ตัวอักษร)</div>
-            </div>
-            <div class="field">
-              <label for="story">เล่ารายละเอียด <em>*</em> <small>เกิดอะไรขึ้น บ่อยแค่ไหน ตอนนี้แก้ยังไงอยู่</small></label>
-              <textarea class="inp" id="story" name="story" maxlength="1000" placeholder="เช่น ร้านเรามีแอดมิน 2 คน ช่วง 11.11 แชตเข้ามาวันละ 300+ ข้อความ ตอบไม่ทันจนลูกค้าหายไปซื้อร้านอื่น ตอนนี้ใช้วิธีก๊อปข้อความตอบเองทีละอัน..."></textarea>
-              <div class="counter"><span id="cnt">0</span>/1000</div>
-              <div class="err">เล่าเพิ่มอีกนิด อย่างน้อย 20 ตัวอักษร</div>
-            </div>
-            <div class="field">
-              <span class="lab" id="impactL">ผลกระทบ <small>เลือกได้หลายข้อ</small></span>
-              <div class="pills" role="group" aria-labelledby="impactL">
-                <label><input type="checkbox" name="impact" value="เสียเวลา"><span>⏱ เสียเวลา</span></label>
-                <label><input type="checkbox" name="impact" value="เสียเงิน"><span>💸 เสียเงิน</span></label>
-                <label><input type="checkbox" name="impact" value="เสียลูกค้า"><span>🙅 เสียลูกค้า</span></label>
-                <label><input type="checkbox" name="impact" value="ข้อมูลผิดพลาด"><span>⚠️ ข้อมูลผิดพลาด</span></label>
-                <label><input type="checkbox" name="impact" value="ทีมเหนื่อย / หมดไฟ"><span>😮‍💨 ทีมเหนื่อย</span></label>
-                <label><input type="checkbox" name="impact" value="โตต่อไม่ได้"><span>📉 โตต่อไม่ได้</span></label>
-              </div>
-            </div>
-            <div class="field">
-              <span class="lab">เสียเวลากับปัญหานี้ประมาณ</span>
-              <div class="calc">
-                <div class="calc-row">
-                  <div>
-                    <label class="stepper-l" for="hrs">ชั่วโมง / สัปดาห์ / คน</label>
-                    <div class="stepper"><button type="button" data-step="hrs" data-d="-1" aria-label="ลดชั่วโมง">−</button><input id="hrs" type="number" inputmode="numeric" min="1" max="80" value="5"><button type="button" data-step="hrs" data-d="1" aria-label="เพิ่มชั่วโมง">+</button></div>
-                  </div>
-                  <div class="calc-x" aria-hidden="true">×</div>
-                  <div>
-                    <label class="stepper-l" for="ppl">จำนวนคนที่ต้องทำ</label>
-                    <div class="stepper"><button type="button" data-step="ppl" data-d="-1" aria-label="ลดจำนวนคน">−</button><input id="ppl" type="number" inputmode="numeric" min="1" max="500" value="1"><button type="button" data-step="ppl" data-d="1" aria-label="เพิ่มจำนวนคน">+</button></div>
-                  </div>
-                </div>
-                <div class="wage">
-                  <label class="stepper-l" for="wage" style="text-align:left">ค่าแรงต่อชั่วโมงโดยประมาณ <span style="color:var(--ink-3)">(ไม่แน่ใจ แตะตัวเลขใกล้เคียงได้เลย)</span></label>
-                  <div class="wage-row">
-                    <div class="wage-chips" id="wageChips">
-                      <button type="button" data-w="100">฿100</button><button type="button" data-w="150">฿150</button><button type="button" data-w="250">฿250</button><button type="button" data-w="400">฿400</button>
-                    </div>
-                    <div class="wage-inp"><input id="wage" type="number" inputmode="numeric" min="1" max="100000" value="150" aria-label="ค่าแรงต่อชั่วโมง (บาท)"><span>บาท/ชม.</span></div>
-                  </div>
-                </div>
-                <div class="est" aria-live="polite">
-                  <div class="est-l">
-                    <div class="est-k">เวลาที่ยักษ์กินไป</div>
-                    <div class="yr" id="yrBig">260<small>ชม./ปี</small></div>
-                    <div class="meta" id="estMeta">≈ 33 วันทำงานต่อปี</div>
-                  </div>
-                  <div class="size lock" aria-hidden="true"><b>?</b><small>ไซซ์ยักษ์</small></div>
-                </div>
-                <div class="size-line">🔒 ยักษ์ของคุณไซซ์ <b>S, M หรือ L</b>? กรอกให้ครบแล้วกด “ส่งปัญหายักษ์” ยักษ์จะมาเฉลยให้เอง</div>
-              </div>
-            </div>
-          </fieldset>
-
-          <fieldset class="fs">
-            <legend><b>2</b> เกี่ยวกับคุณ</legend>
-            <div class="field">
-              <span class="lab" id="roleL">ประเภทผู้ส่ง <em>*</em></span>
-              <div class="pills role" role="radiogroup" aria-labelledby="roleL" id="role">
-                <label><input type="radio" name="role" value="ผู้ประกอบการ / SME"><span>🏪 SME / เจ้าของกิจการ</span></label>
-                <label><input type="radio" name="role" value="Freelancer"><span>🎨 Freelancer</span></label>
-                <label><input type="radio" name="role" value="คนทำงานทั่วไป"><span>💼 คนทำงานทั่วไป</span></label>
-                <label><input type="radio" name="role" value="อื่น ๆ"><span>✨ อื่น ๆ</span></label>
-              </div>
-              <div class="err">เลือกประเภทที่ใกล้เคียงที่สุด</div>
-            </div>
-            <div class="row2">
-              <div class="field">
-                <label for="industry">ธุรกิจ / สายงาน</label>
-                <select class="inp" id="industry" name="industry">
-                  <option value="">เลือก...</option>
-                  <option>ร้านค้าออนไลน์ / ค้าปลีก</option><option>ร้านอาหาร / คาเฟ่</option><option>บริการ / ท่องเที่ยว</option><option>ครีเอทีฟ / มีเดีย / ดีไซน์</option><option>การเงิน / บัญชี</option><option>การศึกษา</option><option>สุขภาพ / ความงาม</option><option>การผลิต / โลจิสติกส์</option><option>เทคโนโลยี / IT</option><option>อื่น ๆ</option>
-                </select>
-              </div>
-              <div class="field">
-                <label for="team">ขนาดทีม</label>
-                <select class="inp" id="team" name="team"><option value="">เลือก...</option><option>ทำคนเดียว</option><option>2–10 คน</option><option>11–50 คน</option><option>51–200 คน</option><option>200 คนขึ้นไป</option></select>
-              </div>
-            </div>
-          </fieldset>
-
-          <fieldset class="fs">
-            <legend><b>3</b> ช่องทางติดต่อกลับ</legend>
-            <div class="row2">
-              <div class="field"><label for="name">ชื่อ / ชื่อเล่น <em>*</em></label><input class="inp" id="name" name="name" autocomplete="name" enterkeyhint="next" placeholder="เช่น คุณบัว"><div class="err">ขอชื่อเพื่อเรียกคุณหน่อย</div></div>
-              <div class="field"><label for="phone">เบอร์มือถือ <em>*</em></label><input class="inp" id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" maxlength="12" enterkeyhint="next" placeholder="08X-XXX-XXXX"><div class="err">กรอกเบอร์ 10 หลัก ขึ้นต้นด้วย 0</div></div>
-            </div>
-            <div class="row2">
-              <div class="field"><label for="email">อีเมล</label><input class="inp" id="email" name="email" type="email" inputmode="email" autocomplete="email" enterkeyhint="next" placeholder="ไม่บังคับ"><div class="err">รูปแบบอีเมลไม่ถูกต้อง</div></div>
-              <div class="field"><label for="line">LINE ID</label><input class="inp" id="line" name="line" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" placeholder="ไม่บังคับ"></div>
-            </div>
-            <div class="hp-trap" aria-hidden="true"><label for="hp">เว้นว่างไว้</label><input id="hp" name="website" tabindex="-1" autocomplete="off"></div>
-            <div class="field">
-              <div class="pdpa-box">
-                <label class="check" style="margin:0"><input type="checkbox" id="pdpa"> <span>ฉันยอมรับให้ BaNANA เก็บและใช้ข้อมูลนี้เพื่อติดต่อกลับเกี่ยวกับกิจกรรม Giant Problem Submission ตาม พ.ร.บ.คุ้มครองข้อมูลส่วนบุคคล (PDPA) <em style="color:var(--red);font-style:normal">*</em> <a href="#" id="pdpaLink">อ่านเพิ่ม</a></span></label>
-                <div class="pdpa-more" id="pdpaMore">ข้อมูลที่เก็บ: ชื่อ เบอร์ อีเมล LINE ID และรายละเอียดปัญหา · ใช้เพื่อคัดเลือกและติดต่อกลับเรื่องกิจกรรมนี้เท่านั้น · ไม่ขายหรือส่งต่อให้บุคคลภายนอก · เก็บไม่เกิน 12 เดือนหลังจบกิจกรรม · ขอดู แก้ไข หรือลบข้อมูลได้ทุกเมื่อผ่านช่องทางติดต่อของ BaNANA</div>
-              </div>
-              <div class="err" style="margin-top:-6px">ต้องยอมรับก่อนส่งนะ</div>
-            </div>
-            <label class="check"><input type="checkbox" id="share" checked> <span>ยินดีให้นำเรื่องไปเล่าต่อใน Content Series / Case Study หากถูกคัดเลือก (เราจะติดต่อขออนุญาตก่อนทุกครั้ง)</span></label>
-          </fieldset>
-
-          <div class="submit-row">
-            <button class="btn btn-p btn-block" type="button" id="sendBtn">ส่งปัญหายักษ์ 🚀</button>
-            <small>ส่งได้มากกว่า 1 ปัญหา · ร่วมกิจกรรมฟรี</small>
-          </div>
-          <div class="draft" id="draft" aria-live="polite"></div>
-        </form>
-
-        <div class="done" id="done" tabindex="-1" data-size="S" aria-live="polite">
-          <!-- ระหว่างวัดไซซ์ -->
-          <div class="measure">
-            <i class="m-giant mascot-img" aria-hidden="true"></i>
-            <b>ยักษ์กำลังวัดไซซ์ให้คุณ...</b>
-            <p>กำลังคำนวณเวลาและต้นทุนที่ยักษ์กินไป</p>
-            <div class="m-bar"><span></span></div>
-          </div>
-
-          <!-- เฉลยไซซ์ -->
-          <div class="reveal">
-            <div class="rv-hero">
-              <span class="thx-k">🎉 ส่งปัญหายักษ์เรียบร้อย</span>
-              <h3 class="thx-h">ขอบคุณที่ร่วมกิจกรรมนะ<br><span class="thx-name" id="thxName">คุณ</span></h3>
-              <p class="thx-sub">จากที่คุณเล่ามา ยักษ์ของคุณคือ...</p>
-              <div class="stage">
-                <div class="burst" aria-hidden="true"></div>
-                <span class="spk s1" aria-hidden="true">✨</span><span class="spk s2" aria-hidden="true">✨</span><span class="spk s3" aria-hidden="true">🍌</span>
-                <div class="say" id="say">ขอบคุณน้าา!</div>
-                <i class="giant mascot-img" role="img" aria-label="ยักษ์มาสคอตขอบคุณ"></i>
-                <div class="ground" aria-hidden="true"></div>
-              </div>
-              <div class="sz-badge"><small>ไซซ์</small><b id="szBig">S</b></div>
-              <div class="sz-nick" id="szNick">ยักษ์กล้วยไข่</div>
-              <p class="sz-title" id="szTitle"></p>
-              <div class="meter3" aria-hidden="true"><span data-s="S">S<small>กล้วยไข่</small></span><span data-s="M">M<small>กล้วยหอม</small></span><span data-s="L">L<small>กล้วยงาช้าง</small></span></div>
-              <div class="stats">
-                <div><b id="stHrs">0</b><span>ชม./ปี ที่ยักษ์กินไป</span></div>
-                <div><b id="stCost">฿0</b><span>ต้นทุนของปัญหา/ปี</span></div>
-              </div>
-              <p class="sz-msg" id="szMsg"></p>
-              <div class="perk-box">
-                <small>สิทธิ์ของยักษ์ไซซ์ <span id="pbSize">S</span></small>
-                <div class="pb-disc">ส่วนลด <b id="pbDisc">5%</b></div>
-                <div class="pb-perk" id="pbPerk"></div>
-                <span class="pb-note">รับโค้ดส่วนลดได้ที่ Trade-in Giant</span>
-              </div>
-            </div>
-
-            <div class="rv-body">
-              <div class="ticket"><small>หมายเลขเรื่องของคุณ</small><b id="tNo">GP-0000</b><button type="button" id="copyNo">คัดลอกหมายเลข</button></div>
-              <p class="lead">ทีม BaNANA × Amazon Quick จะอ่านทุกเรื่อง ถ้าเรื่องของคุณถูกเลือก เราจะติดต่อกลับทางช่องทางที่ให้ไว้</p>
-              <div class="next">
-                <div class="top"><i class="mascot-img" aria-hidden="true"></i><p><b>ไปต่อ: Trade-in Giant 🗡️</b><span id="nextTxt">รับโค้ดส่วนลด + 1 สิทธิ์ลุ้นรางวัล</span></p></div>
-                <a class="btn btn-y btn-block" href="./#quiz" id="tradeBtn">ไปรับโค้ดส่วนลดที่ Trade-in Giant →</a>
-              </div>
-              <div class="done-actions">
-                <div class="share-row">
-                  <button class="btn btn-o" id="shareBtn" type="button">📣 ชวนเพื่อนวัดไซซ์ยักษ์</button>
-                  <a class="btn btn-line" id="lineBtn" href="#" target="_blank" rel="noopener">แชร์ทาง LINE</a>
-                </div>
-              </div>
-              <details class="recap-d"><summary>ดูสรุปเรื่องที่ส่ง</summary><div class="recap" id="recap"></div></details>
-              <button class="again" id="againBtn" type="button">+ ส่งอีกปัญหา</button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="perk dark"><div class="big">Top 6</div><h3>ปัญหายอดฮิตถูกแก้ให้ดู</h3><p>ปัญหาที่ติดอันดับในก้อนเมฆ ทีมจะลองแก้จริงด้วย Amazon Quick แล้วสอนวิธีแบบทำตามได้</p></div>
+      <div class="perk"><div class="big">🎬</div><h3>ดูวิธีแก้ฟรีใน Content Series</h3><p>ติดตามวิธีปราบยักษ์ผ่าน Content Series และ Case Study บนช่องทางของ BaNANA</p></div>
+      <div class="perk"><div class="big">☁️</div><h3>เสียงของคุณขึ้นก้อนเมฆ</h3><p>ทุกเรื่องที่ส่งถูกนับรวมทันที ยิ่งหลายคนเจอปัญหาเดียวกัน ยิ่งมีโอกาสถูกหยิบไปทำ Content ก่อน</p><span class="tag">เห็นผลทันทีหลังกดส่ง</span></div>
     </div>
   </div>
 </section>
@@ -709,9 +642,9 @@ textarea.inp{min-height:140px;resize:vertical;line-height:1.55}
       <div class="fq"><button class="fq-q" type="button" aria-expanded="false">ต้องเป็นลูกค้า BaNANA หรือใช้ Amazon Quick อยู่แล้วไหม?<span class="pl" aria-hidden="true">+</span></button><div class="fq-a"><div>ไม่ต้อง ใครก็ส่งได้ ทั้งผู้ประกอบการ / SME, Freelancer และคนทำงานทั่วไป ไม่ต้องสมัครหรือซื้ออะไรก่อน</div></div></div>
       <div class="fq"><button class="fq-q" type="button" aria-expanded="false">ปัญหาแบบไหนที่มีโอกาสถูกเลือก?<span class="pl" aria-hidden="true">+</span></button><div class="fq-a"><div>ปัญหาที่เกิดซ้ำ กินเวลาจริง และหลายคนน่าจะเจอเหมือนกัน เช่น งานเอกสาร งานรายงาน การตอบลูกค้า การตามงาน ยิ่งเล่าเป็นตัวอย่างจริงชัด ยิ่งดี</div></div></div>
       <div class="fq"><button class="fq-q" type="button" aria-expanded="false">ส่งได้กี่ปัญหา? มีค่าใช้จ่ายไหม?<span class="pl" aria-hidden="true">+</span></button><div class="fq-a"><div>ร่วมฟรี ไม่มีค่าใช้จ่าย และส่งได้มากกว่า 1 ปัญหา แต่ละเรื่องจะได้หมายเลขเรื่อง (GP-xxxx) แยกกัน</div></div></div>
-      <div class="fq"><button class="fq-q" type="button" aria-expanded="false">ข้อมูลที่ส่งมาจะถูกเปิดเผยไหม?<span class="pl" aria-hidden="true">+</span></button><div class="fq-a"><div>เราใช้ข้อมูลเพื่อติดต่อกลับเรื่องกิจกรรมนี้เท่านั้นตาม PDPA ก่อนนำเรื่องไปทำ Content Series เราจะติดต่อขออนุญาต และเลือกได้ว่าจะเปิดเผยชื่อร้าน / ชื่อจริงหรือไม่</div></div></div>
-      <div class="fq"><button class="fq-q" type="button" aria-expanded="false">ส่งแล้วจะรู้ผลเมื่อไร?<span class="pl" aria-hidden="true">+</span></button><div class="fq-a"><div>ทีมจะติดต่อกลับเฉพาะเรื่องที่ถูกคัดเลือกทางเบอร์มือถือหรือ LINE ที่ให้ไว้ ระหว่างนี้ไปวัดไซซ์ยักษ์ใน Trade-in Giant เพื่อรับโค้ดส่วนลดได้เลย</div></div></div>
-      <div class="fq"><button class="fq-q" type="button" aria-expanded="false">ไซซ์ยักษ์ S / M / L วัดยังไง?<span class="pl" aria-hidden="true">+</span></button><div class="fq-a"><div>ใช้เกณฑ์เดียวกับ Trade-in Giant คิดจาก “ต้นทุนของปัญหา” = ชั่วโมงต่อสัปดาห์ × จำนวนพนักงานที่เกี่ยวข้อง × ค่าแรงต่อชั่วโมง × 52 สัปดาห์ · <b>S</b> ต่ำกว่า ฿50,000/ปี (ส่วนลด 5%) · <b>M</b> ฿50,000–150,000/ปี (ส่วนลด 10%) · <b>L</b> มากกว่า ฿150,000/ปี (ส่วนลด 15%)</div></div></div>
+      <div class="fq"><button class="fq-q" type="button" aria-expanded="false">ข้อมูลที่ส่งมาจะถูกเปิดเผยไหม?<span class="pl" aria-hidden="true">+</span></button><div class="fq-a"><div>ฟอร์มนี้ไม่ขอชื่อ เบอร์ หรืออีเมล จึงระบุตัวผู้ส่งไม่ได้ เรื่องที่ส่งอาจถูกนำไปเล่าต่อใน Content Series แบบไม่ระบุตัวตน ขอแค่อย่าใส่ชื่อ เบอร์ หรือข้อมูลลูกค้าลงในรายละเอียด</div></div></div>
+      <div class="fq"><button class="fq-q" type="button" aria-expanded="false">ส่งแล้วจะรู้ผลเมื่อไร?<span class="pl" aria-hidden="true">+</span></button><div class="fq-a"><div>ดูได้ทันทีในก้อนเมฆปัญหาว่าเรื่องไหนกำลังมาแรง และติดตามวิธีแก้ปัญหายอดฮิตได้ใน Content Series บนช่องทางของ BaNANA</div></div></div>
+      <div class="fq"><button class="fq-q" type="button" aria-expanded="false">ก้อนเมฆปัญหาคืออะไร นับยังไง?<span class="pl" aria-hidden="true">+</span></button><div class="fq-a"><div>ทุกเรื่องที่ส่งเข้ามาจะนับตาม “ประเภทปัญหา” ที่เลือก (เลือกได้ 1–3 ข้อ) ปัญหาที่มีคนเลือกเยอะจะตัวใหญ่และเข้มขึ้น ก้อนเมฆแสดงแค่ยอดรวม ไม่แสดงรายละเอียดที่แต่ละคนเล่า · ปัญหาที่พิมพ์เองในช่อง “อื่น ๆ” จะขึ้นก้อนเมฆเมื่อมีคนส่งคำเดียวกันตั้งแต่ 2 คนขึ้นไป</div></div></div>
     </div>
   </div>
 </section>
@@ -719,25 +652,52 @@ textarea.inp{min-height:140px;resize:vertical;line-height:1.55}
 <div class="mcta" id="mcta"><a class="btn btn-p" href="#submit">ส่งปัญหายักษ์ของฉัน →</a></div>
 <div class="toast" id="toast" role="status"></div>
 
-<footer class="footer">
+<!-- ============ BANANA FOOTER ============ -->
+<div class="bn-services"><div class="container"><div class="bn-svc"><i><svg viewBox="0 0 64 40" width="64" height="40"><rect x="2" y="6" width="38" height="24" rx="2" fill="none" stroke="#1A1A1A" stroke-width="2"/><text x="21" y="23" text-anchor="middle" font-family="Kanit" font-weight="700" font-size="11" fill="#1A1A1A">FREE</text><path d="M40 14h12l8 8v8H40z" fill="none" stroke="#1A1A1A" stroke-width="2"/><circle cx="14" cy="33" r="4" fill="#fff" stroke="#1A1A1A" stroke-width="2"/><circle cx="50" cy="33" r="4" fill="#fff" stroke="#1A1A1A" stroke-width="2"/></svg></i><div><b>ส่งฟรีทั่วไทย</b><span>ช้อปครบ 3,000.- ขึ้นไป</span></div></div><div class="bn-svc"><i><svg viewBox="0 0 48 48" width="48" height="48"><path d="M40 16A19 19 0 1 0 43 26" fill="none" stroke="#1A1A1A" stroke-width="2.4" stroke-linecap="round"/><path d="M40 8v9h-9" fill="none" stroke="#1A1A1A" stroke-width="2.4" stroke-linecap="round"/><text x="22" y="31" text-anchor="middle" font-family="Kanit" font-weight="600" font-size="18" fill="#1A1A1A">3</text></svg></i><div><b>ส่งด่วนภายใน 3 ชั่วโมง</b><span>กรุงเทพฯ และพื้นที่ที่ให้บริการ</span></div></div><div class="bn-svc"><i><svg viewBox="0 0 56 44" width="56" height="44"><path d="M4 18L28 4l24 14v24H4z" fill="none" stroke="#1A1A1A" stroke-width="2"/><rect x="10" y="8" width="18" height="8" fill="#fff" stroke="#1A1A1A" stroke-width="1.6"/><text x="19" y="14.5" text-anchor="middle" font-family="Kanit" font-size="6" fill="#1A1A1A">SHOP</text><path d="M22 42V28h12v14" fill="none" stroke="#1A1A1A" stroke-width="2"/></svg></i><div><b>รับเองที่ร้าน</b><span>รับสินค้าใกล้บ้าน 600 สาขาทั่วประเทศ</span></div></div><div class="bn-svc"><i><svg viewBox="0 0 64 36" width="64" height="36"><path d="M12 6l-8 8 8 8" fill="none" stroke="#1A1A1A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 14h50a6 6 0 0 1 6 6v4a6 6 0 0 1-6 6H14" fill="none" stroke="#1A1A1A" stroke-width="2.4" stroke-linecap="round"/></svg></i><div><b>เปลี่ยน คืน ง่าย</b><span>ภายใน 7 วัน*</span></div></div></div></div>
+
+<footer class="bn-footer">
   <div class="container">
-    <div class="f-top">
-      <a class="logo" href="./"><i class="mark banana-img" role="img" aria-label="BaNANA"></i><span class="word">BaNANA</span></a>
-      <nav class="f-links"><a href="./">Amazon Quick บน BaNANA</a><a href="./#quiz">Trade-in Giant</a><a href="./#lucky">ลุ้นรางวัล</a><a href="./#store">Experience Zone</a></nav>
+    <div class="bn-fgrid">
+      <div class="bn-fbrand">
+        <a class="bn-logo" href="./"><i class="mark banana-img" role="img" aria-label="BaNANA"></i><span class="word">BaNANA</span></a>
+        <p>ช้อปสินค้าไอทีได้ง่าย ตลอด 24 ชั่วโมง</p>
+        <a class="bn-store" href="./"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z" fill="#1A1A1A"/><circle cx="12" cy="10" r="2.6" fill="#fff"/></svg>ค้นหาร้านใกล้คุณ</a>
+        <div class="bn-apps"><span class="bn-app"><svg width="16" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9s-2-.9-3.4-.9C5.8 6.8 4 7.9 3.1 9.6c-1.9 3.3-.5 8.1 1.3 10.8.9 1.3 2 2.7 3.3 2.7 1.3-.1 1.8-.9 3.4-.9s2 .9 3.4.8c1.4 0 2.3-1.3 3.2-2.6 1-1.5 1.4-2.9 1.4-3-.1 0-2.7-1-2.7-4.8zM13.9 4.9c.7-.9 1.2-2 1.1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.1.1 2.3-.6 3-1.5z" fill="#fff"/></svg><span><small>Download on the</small>App Store</span></span><span class="bn-app"><svg width="16" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 2.5v19l10-9.5z" fill="#34A853"/><path d="M14 12l3.2-3.1L5 2.1z" fill="#4285F4"/><path d="M14 12l3.2 3.1L5 21.9z" fill="#EA4335"/><path d="M17.2 8.9L21 11c.8.5.8 1.5 0 2l-3.8 2.1L14 12z" fill="#FBBC04"/></svg><span><small>GET IT ON</small>Google Play</span></span></div>
+      </div>
+      <div class="bn-fcol"><h4>เกี่ยวกับ BaNANA</h4><a href="./">ติดต่อเรา</a><a href="./">เกี่ยวกับ BNN.in.th</a><a href="./">สมัครสมาชิก 7CLUB PLUS</a><a href="./">ข้อกำหนดและเงื่อนไข</a><a href="./">ร่วมงานกับเรา</a></div>
+      <div class="bn-fcol"><h4>บริการ</h4><a href="./">ขั้นตอนการสั่งซื้อบน BNN.in.th แบบง่ายๆ</a><a href="./">ใช้จ่ายผ่าน ShopeePay</a><a href="./">การจัดส่งสินค้า</a><a href="./">บริการที่ร้านสาขา</a><a href="./">การยกเลิกรายการสั่งซื้อสินค้า</a></div>
+      <div class="bn-fcol"><h4>แคมเปญ Amazon Quick</h4><a href="./">Amazon Quick บน BaNANA</a><a href="#submit">ส่งปัญหายักษ์</a><a href="#cloud">ก้อนเมฆปัญหา</a><a href="./#quiz">Trade-in Giant · วัดไซซ์ยักษ์</a><a href="./#lucky">ลุ้นรางวัล</a></div>
+      <div class="bn-fcol bn-fmeta">
+        <h4>Verified by</h4>
+        <div class="bn-badges"><span class="bd-dbd">DBD<small>Registered</small></span><span class="bd-mc"><i></i><i></i><em>MasterCard<br>SecureCode</em></span><span class="bd-visa"><small>Verified by</small>VISA</span></div>
+        <h4>ติดตามเรา</h4>
+        <div class="bn-socials"><a href="./" aria-label="Facebook" class="bn-soc"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="12" fill="#1877F2"/><path d="M13.5 21v-7h2.4l.4-2.8h-2.8V9.4c0-.8.2-1.4 1.4-1.4h1.5V5.5c-.3 0-1.2-.1-2.2-.1-2.2 0-3.6 1.3-3.6 3.7v2.1H8.2V14h2.4v7z" fill="#fff"/></svg></a><a href="./" aria-label="Instagram" class="bn-soc"><svg viewBox="0 0 24 24" width="28" height="28"><defs><linearGradient id="ig" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#FEDA75"/><stop offset=".5" stop-color="#D62976"/><stop offset="1" stop-color="#4F5BD5"/></linearGradient></defs><circle cx="12" cy="12" r="12" fill="url(#ig)"/><rect x="6" y="6" width="12" height="12" rx="3.5" fill="none" stroke="#fff" stroke-width="1.8"/><circle cx="12" cy="12" r="2.8" fill="none" stroke="#fff" stroke-width="1.8"/><circle cx="15.6" cy="8.4" r=".9" fill="#fff"/></svg></a><a href="./" aria-label="LINE" class="bn-soc"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="12" fill="#06C755"/><path d="M12 6c-3.9 0-7 2.5-7 5.6 0 2.8 2.5 5.1 5.8 5.5.2.1.5.2.6.4.1.2 0 .5 0 .7l-.1.6c0 .2-.1.6.6.3s3.7-2.2 5.1-3.8c.9-1 1.4-2.1 1.4-3.3C19 8.5 15.9 6 12 6z" fill="#fff"/></svg></a><a href="./" aria-label="TikTok" class="bn-soc"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="12" fill="#000"/><path d="M14 5c.3 1.8 1.4 3 3.2 3.2v2.4c-1.2 0-2.3-.4-3.2-1v4.7a4.2 4.2 0 1 1-4.2-4.2h.4v2.5a1.7 1.7 0 1 0 1.3 1.7V5z" fill="#fff"/></svg></a><a href="./" aria-label="X" class="bn-soc"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="12" fill="#000"/><path d="M6.5 6h3.3l2.6 3.6L15.6 6h1.8l-4.1 4.7L18 18h-3.3l-2.9-4-3.4 4H6.6l4.4-5z" fill="#fff"/></svg></a><a href="./" aria-label="YouTube" class="bn-soc"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="12" fill="#FF0000"/><path d="M10 9l5 3-5 3z" fill="#fff"/></svg></a></div>
+        <h4>บริการจัดส่ง</h4>
+        <div class="bn-badges"><span class="bd-kerry">KERRY<small>EXPRESS</small></span><span class="bd-dhl">DHL</span></div>
+      </div>
     </div>
-    <div class="f-bottom"><div>© 2026 BaNANA (จำลอง) · Amazon Quick เป็นคอนเซปต์เพื่อการนำเสนอ</div><div>Concept mockup – D.O.T. Project 2026 Team 3 · ไม่ใช่เว็บไซต์ทางการ</div></div>
+    <div class="bn-fbottom"><div>© 2026 BaNANA (จำลอง) · Amazon Quick เป็นคอนเซปต์เพื่อการนำเสนอ</div><div>Concept mockup – D.O.T. Project 2026 Team 3 · ไม่ใช่เว็บไซต์ทางการ</div></div>
   </div>
 </footer>
 
+
 <script>
 /* =========================================================
-   CONFIG — เชื่อม Google Sheet
-   วาง URL Web App ของ Google Apps Script (ลงท้ายด้วย /exec) ระหว่าง '' ด้านล่าง
-   เช่น const SUBMIT_ENDPOINT = 'https://script.google.com/macros/s/AKfy.../exec';
-   ถ้าเว้นว่าง = โหมดเดโม (เก็บข้อมูลไว้ในเบราว์เซอร์ของคนกรอกเท่านั้น ทีมไม่ได้รับ)
+   CONFIG — Google Apps Script Web App (ลงท้ายด้วย /exec)
+   POST = ส่งเรื่อง · GET ?action=stats = ยอดรวมสำหรับก้อนเมฆ
+   ถ้าเว้นว่าง = โหมดเดโม (นับเฉพาะในเบราว์เซอร์นี้)
    ========================================================= */
 const SUBMIT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwOn9m1fHWqevb67sl1x51_XSM-wcdGn4knsjojh-ik5O7pUNIhDpa16kHug_39007J/exec';
-if(!SUBMIT_ENDPOINT) console.warn('[Giant Problem] ยังไม่ได้ใส่ SUBMIT_ENDPOINT — ข้อมูลจะไม่ถูกส่งเข้า Google Sheet');
+const REFRESH_MS = 60000;
+
+/* ต้องตรงกับ PRESET_TAGS ใน Apps Script */
+const TAGS = [
+  ['💬','ตอบแชตไม่ทัน'],['📊','ทำรายงานยอดขาย'],['📦','สต็อกไม่ตรง'],['🧾','ทำใบเสนอราคา'],
+  ['💰','ตามเก็บเงิน'],['📝','สรุปประชุม'],['🔎','หาไฟล์ไม่เจอ'],['🧩','ข้อมูลกระจายหลายที่'],
+  ['🎨','คิดคอนเทนต์ไม่ทัน'],['📅','จัดตารางงาน'],['📄','งานเอกสารซ้ำ ๆ'],['📧','ตอบอีเมลไม่ไหว'],
+  ['👥','วิเคราะห์ลูกค้า'],['🧮','บัญชี / ภาษี']
+];
+const MAX_TAGS = 3;
 
 (function(){
   const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
@@ -745,118 +705,185 @@ if(!SUBMIT_ENDPOINT) console.warn('[Giant Problem] ยังไม่ได้�
   const params=new URLSearchParams(location.search);
   const src=(params.get('src')||'direct').replace(/[^\w-]/g,'').slice(0,30)||'direct';
   if(/poster|qr/i.test(src)) $('#welcome').classList.add('on');
+  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmt=n=>Number(n||0).toLocaleString('th-TH');
+  function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('on');clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('on'),2400)}
 
-  /* ---------- idea chips ---------- */
-  const ideas=[
-    ['💬','ตอบแชตลูกค้าไม่ทัน','ลูกค้าทักเข้ามาหลายช่องทาง ตอบไม่ทันจนลูกค้าหาย'],
-    ['📊','สรุปยอดขายทุกสัปดาห์','ต้องรวมตัวเลขจากหลายไฟล์ทำรายงานเองทุกสัปดาห์'],
-    ['📦','สต็อกไม่ตรงกับของจริง','ตัวเลขสต็อกในระบบกับของจริงไม่ตรง ต้องนับใหม่บ่อย'],
-    ['🧾','ทำใบเสนอราคา / ใบแจ้งหนี้','ทำเอกสารให้ลูกค้าทีละใบ ใช้เวลานานและผิดบ่อย'],
-    ['📝','สรุปประชุมไม่ทัน','ประชุมเยอะ จดไม่ทัน งานที่ตกลงกันหายระหว่างทาง'],
-    ['🔎','หาเอกสารเก่าไม่เจอ','ไฟล์กระจายอยู่หลายที่ ต้องเสียเวลาค้นทุกครั้ง'],
-    ['⏰','ตามงาน / ตามลูกค้าจ่ายเงิน','ต้องคอยจำและทักตามเองว่าใครยังไม่ส่ง ใครยังไม่จ่าย']
-  ];
-  ideas.forEach(([e,t,d])=>{const b=document.createElement('button');b.type='button';b.textContent=e+' '+t;b.onclick=()=>{
-    $('#title').value=t; if(!$('#story').value.trim()) $('#story').value=d+' — ';
-    $('#title').closest('.field').classList.remove('bad'); upd(); save();
-    const s=$('#story'); s.scrollIntoView({behavior:'smooth',block:'center'});
-    setTimeout(()=>{s.focus({preventScroll:true});s.setSelectionRange(s.value.length,s.value.length)},450);
-  };$('#ideas').appendChild(b)});
-
-  /* ---------- time calculator: ชม./สัปดาห์ × คน × 52 ---------- */
-  const clamp=(el)=>{let v=parseInt(el.value,10);if(isNaN(v))v=+el.min;v=Math.max(+el.min,Math.min(+el.max,v));el.value=v;return v};
-  /* ไซซ์ยักษ์ตามแคมเปญ Trade-in Giant: ต้นทุนปัญหา = ชม./สัปดาห์ × คน × ค่าแรง/ชม. × 52 */
-  const SIZES={
-    S:{say:'ขอบคุณน้าา! ตัวเล็กแต่แสบนะเรา 🍌',title:'ยักษ์ตัวจิ๋ว แต่แอบกินเวลาทุกสัปดาห์',msg:'ปัญหาเล็ก ๆ ที่เจอซ้ำทุกวัน รวมกันแล้วก็ไม่เล็กนะ ปราบตอนยังตัวเล็กนี่แหละง่ายที่สุด',nick:'ยักษ์กล้วยไข่',desc:'ตัวเล็ก แต่ปล่อยไว้ก็กินเวลาทุกสัปดาห์',disc:'5%',perk:'Quick Start Guide + Prompt Templates',range:'ต่ำกว่า ฿50,000/ปี'},
-    M:{say:'ขอบคุณที่ส่งมานะ! ตัวนี้เริ่มหนักแล้ว 💪',title:'ยักษ์ไซซ์กลาง งานเริ่มกองทุกสัปดาห์',msg:'ต้นทุนเริ่มหนักแล้ว ถึงเวลาให้ Amazon Quick ช่วยแบ่งงาน คืนเวลาให้ทีมไปทำเรื่องที่สำคัญกว่า',nick:'ยักษ์กล้วยหอม',desc:'งานกองทุกสัปดาห์ ต้นทุนเริ่มหนัก',disc:'10%',perk:'Prompt Templates + สิทธิ์เข้าร่วม Online Workshop',range:'฿50,000–150,000/ปี'},
-    L:{say:'ขอบคุณมาก ๆ! ตัวใหญ่ขนาดนี้ ยักษ์ยังตกใจ 😱',title:'ยักษ์ตัวมหึมา กินทั้งเวลาและเงิน',msg:'ยิ่งยักษ์ใหญ่ ยิ่งคุ้มที่จะปราบ คุณได้สิทธิ์ระดับสูงสุดของแคมเปญเลย',nick:'ยักษ์กล้วยงาช้าง',desc:'ยักษ์ตัวใหญ่ที่กินทั้งเวลาและเงินของธุรกิจ',disc:'15%',perk:'Prompt Templates + Online Workshop + Personal Consultation',range:'มากกว่า ฿150,000/ปี'}
-  };
-  const baht=n=>'฿'+n.toLocaleString('th-TH');
-  function est(){
-    const h=clamp($('#hrs')),p=clamp($('#ppl')),w=clamp($('#wage'));
-    const yr=h*p*52, days=Math.round(yr/8), cost=Math.round(h*p*w*52);
-    const size=cost<50000?'S':cost<=150000?'M':'L';
-    $('#yrBig').innerHTML=yr.toLocaleString('th-TH')+'<small>ชม./ปี</small>';
-    $('#estMeta').textContent=`${h} ชม. × ${p} คน × 52 สัปดาห์ ≈ ${days.toLocaleString('th-TH')} วันทำงานต่อปี`;
-    $$('#wageChips button').forEach(b=>b.classList.toggle('on',+b.dataset.w===w));
-    return {yr,days,h,p,w,cost,size};
+  /* ================= TAG PICKER ================= */
+  const tagBox=$('#tagBox');
+  TAGS.forEach(([e,l])=>{tagBox.insertAdjacentHTML('beforeend',`<label><input type="checkbox" name="tag" value="${esc(l)}"><span>${e} ${esc(l)}</span></label>`)});
+  tagBox.insertAdjacentHTML('beforeend',`<label><input type="checkbox" id="tagOther"><span>✏️ อื่น ๆ</span></label>`);
+  const pickedTags=()=>$$('input[name=tag]:checked').map(i=>i.value);
+  const customOn=()=>$('#tagOther').checked;
+  const customVal=()=>customOn()?$('#customTag').value.trim():'';
+  function syncTags(){
+    const n=pickedTags().length+(customOn()?1:0);
+    $$('#tagBox input').forEach(i=>{if(!i.checked)i.disabled=n>=MAX_TAGS});
+    $('#customWrap').classList.toggle('on',customOn());
+    $('#tagCount').textContent=`เลือกแล้ว ${n}/${MAX_TAGS}`;
   }
-  $$('[data-step]').forEach(b=>b.onclick=()=>{const el=$('#'+b.dataset.step);el.value=(parseInt(el.value,10)||0)+(+b.dataset.d);est();save()});
-  $$('#wageChips button').forEach(b=>b.onclick=()=>{$('#wage').value=b.dataset.w;est();save()});
-  ['hrs','ppl','wage'].forEach(id=>{$('#'+id).addEventListener('change',est);$('#'+id).addEventListener('input',()=>{if($('#'+id).value!=='')est()})});
+  tagBox.addEventListener('change',e=>{syncTags(); if(e.target.id==='tagOther'&&e.target.checked) setTimeout(()=>$('#customTag').focus(),50)});
+  function selectTag(label){
+    const inp=$$('input[name=tag]').find(i=>i.value===label);
+    if(inp&&!inp.checked){
+      const n=pickedTags().length+(customOn()?1:0);
+      if(n>=MAX_TAGS){toast('เลือกได้สูงสุด 3 ข้อ');}
+      else{inp.checked=true;}
+    }
+    if(!inp){ // custom word from cloud
+      $('#tagOther').checked=true; $('#customTag').value=label;
+    }
+    syncTags(); upd(); save();
+    $('#tagBox').closest('.field').classList.remove('bad');
+  }
 
-  /* ---------- phone auto format ---------- */
-  $('#phone').addEventListener('input',e=>{
-    const d=e.target.value.replace(/\D/g,'').slice(0,10);
-    e.target.value=d.length>6?d.replace(/(\d{3})(\d{3})(\d+)/,'$1-$2-$3'):d.length>3?d.replace(/(\d{3})(\d+)/,'$1-$2'):d;
-  });
+  /* ================= CLOUD ================= */
+  const state={total:0,tags:{},custom:{},mine:[],online:false};
+  TAGS.forEach(([,l])=>state.tags[l]=0);
+  const PALETTE=['#5B0E9E','#8A12C9','#A51598','#1A1A1A','#C2188B','#4A4A4A','#7B2FF7'];
 
-  /* ---------- PDPA more ---------- */
-  $('#pdpaLink').onclick=e=>{e.preventDefault();$('#pdpaMore').classList.toggle('on')};
+  function cloudItems(){
+    const arr=Object.entries(state.tags).map(([w,c])=>({w,c,custom:false}));
+    Object.entries(state.custom||{}).forEach(([w,c])=>{if(!state.tags.hasOwnProperty(w))arr.push({w,c,custom:true})});
+    return arr.sort((a,b)=>b.c-a.c||a.w.localeCompare(b.w,'th'));
+  }
 
-  /* ---------- progress ---------- */
-  const TOTAL=6;
+  function layoutCloud(){
+    const box=$('#cloudBox'); if(!box) return;
+    const W=box.clientWidth; if(!W) return;
+    const items=cloudItems();
+    const counts=items.map(i=>i.c), maxC=Math.max(...counts,0), minPos=Math.min(...counts.filter(c=>c>0),maxC)||0;
+    const small=W<520;
+    const minF=small?14:16, maxF=small?Math.min(46,W/7.5):66;
+    box.classList.remove('ready'); box.innerHTML='';
+    const els=items.map((it,idx)=>{
+      const b=document.createElement('button');
+      b.type='button'; b.className='w'; b.setAttribute('role','listitem');
+      let f;
+      if(it.c<=0){f=minF; b.classList.add('zero');}
+      else{const r=maxC===minPos?1:(it.c-minPos)/(maxC-minPos); f=(minF+4)+(maxF-minF-4)*Math.sqrt(r);}
+      b.style.fontSize=f.toFixed(1)+'px';
+      if(it.c>0){ if(idx===0&&maxC>0) b.classList.add('top'); else b.style.color=PALETTE[idx%PALETTE.length]; }
+      if(state.mine.includes(it.w)) b.classList.add('mine');
+      b.innerHTML=esc(it.w)+(it.c>0?`<span class="n">${fmt(it.c)}</span>`:'');
+      b.title=it.c>0?`${it.w} · ${fmt(it.c)} คน`:`${it.w} · ยังไม่มีคนเลือก`;
+      b.setAttribute('aria-label',b.title);
+      b.onclick=()=>{selectTag(it.w); document.getElementById('submit').scrollIntoView({behavior:'smooth'}); toast(`เลือก “${it.w}” ให้แล้ว เล่าต่อได้เลย`)};
+      box.appendChild(b); return b;
+    });
+    // archimedean spiral placement
+    const H0=small?300:360, cx=W/2, cy=H0/2, ratio=W/H0, pad=small?3:5;
+    const placed=[];
+    const hit=(r)=>placed.some(p=>r.x<p.x+p.w+pad&&r.x+r.w+pad>p.x&&r.y<p.y+p.h+pad&&r.y+r.h+pad>p.y);
+    els.forEach((el,i)=>{
+      const w=el.offsetWidth,h=el.offsetHeight; let t=0,ok=false,r;
+      const jitter=(i*1.7)%6.28;
+      while(t<600){
+        const rad=(small?2.2:3)*t;
+        r={x:cx+rad*Math.cos(t+jitter)*Math.min(ratio,1.8)-w/2, y:cy+rad*Math.sin(t+jitter)-h/2, w, h};
+        if(r.x>=2&&r.x+w<=W-2&&!hit(r)){ok=true;break}
+        t+=0.12;
+      }
+      if(!ok){r={x:Math.max(2,(W-w)/2),y:(placed.length?Math.max(...placed.map(p=>p.y+p.h)):0)+pad,w,h}}
+      placed.push(r);
+    });
+    const minY=Math.min(...placed.map(p=>p.y)), maxY=Math.max(...placed.map(p=>p.y+p.h));
+    placed.forEach((p,i)=>{els[i].style.transform=`translate(${p.x.toFixed(1)}px,${(p.y-minY+8).toFixed(1)}px)`});
+    box.style.height=(maxY-minY+16)+'px';
+    requestAnimationFrame(()=>box.classList.add('ready'));
+    if(state.total===0) box.insertAdjacentHTML('beforeend','<div class="cloud-empty">ยังไม่มีใครส่ง เป็นคนแรกที่ทำให้ยักษ์ตัวใหญ่ขึ้นเลย!</div>');
+  }
+
+  function renderTop(){
+    const list=cloudItems().filter(i=>i.c>0).slice(0,6), max=list[0]?list[0].c:1;
+    $('#top5').innerHTML=list.length?list.map((it,i)=>`<li><span class="rk">${i+1}</span><b>${esc(it.w)}</b><span>${fmt(it.c)} คน</span><i><u style="width:${Math.max(6,it.c/max*100)}%"></u></i></li>`).join('')
+      :'<li style="display:block;text-align:center;color:var(--ink-3);font-size:14px">อันดับปัญหายอดฮิตจะขึ้นตรงนี้ เมื่อมีคนส่งเรื่องเข้ามา</li>';
+    $('#cTotal').textContent=fmt(state.total);
+  }
+  let lastSent=null;
+  function renderAll(){renderTop(); layoutCloud(); if(lastSent) renderSame();}
+  function renderSame(){
+    if(!lastSent) return;
+    const {tags,customTag}=lastSent, max=Math.max(1,...Object.values(state.tags));
+    const rows=tags.map(t=>{const c=Math.max(1,state.tags[t]||1);
+      return `<div class="same-row"><b>${esc(t)}</b><span>${fmt(c)} คน</span><i><u data-w="${Math.max(6,c/max*100)}"></u></i><small>${c>1?`คุณกับอีก ${fmt(c-1)} คนเจอปัญหานี้เหมือนกัน`:'คุณเป็นคนแรกที่ส่งเรื่องนี้! 🥇'}</small></div>`}).join('');
+    const ck=customTag?customTag.toLowerCase():'', cc=(ck&&state.custom[ck])||0;
+    $('#same').innerHTML=`<h4>☁️ ปัญหาของคุณในก้อนเมฆ</h4>${rows}${customTag?`<div class="same-row"><b>${esc(customTag)}</b><span>${cc?fmt(cc)+' คน':'อื่น ๆ'}</span><small>${cc?'ขึ้นก้อนเมฆแล้ว!':'ถ้ามีคนส่งคำเดียวกันอีก จะขึ้นก้อนเมฆให้เห็น'}</small></div>`:''}`;
+    setTimeout(()=>$$('#same u').forEach(u=>u.style.width=u.dataset.w+'%'),150);
+  }
+
+  function localStats(){ // demo mode / fallback
+    const all=store.get('giantProblems')||[]; const t={}; TAGS.forEach(([,l])=>t[l]=0); const cu={};
+    all.forEach(r=>{(r.tags||[]).forEach(x=>{if(x in t)t[x]++}); if(r.customTag){const k=r.customTag.toLowerCase();cu[k]=(cu[k]||0)+1}});
+    return {total:all.length,tags:t,custom:cu};
+  }
+  function setLive(on,txt){$('#liveBadge').classList.toggle('off',!on);$('#liveTxt').textContent=txt}
+  async function loadStats(){
+    if(!SUBMIT_ENDPOINT){const s=localStats();Object.assign(state,{total:s.total,tags:{...state.tags,...s.tags},custom:s.custom});setLive(false,'โหมดเดโม');renderAll();return}
+    try{
+      const res=await fetch(SUBMIT_ENDPOINT+'?action=stats&t='+Date.now());
+      const d=await res.json();
+      if(!d.ok) throw new Error('bad');
+      state.total=d.total||0; state.tags={...state.tags,...(d.tags||{})}; state.custom=d.custom||{};
+      setLive(true,'อัปเดตสด · '+new Date().toLocaleTimeString('th-TH',{hour:'2-digit',minute:'2-digit'}));
+      state.online=true;
+    }catch(e){ setLive(false,'โหลดข้อมูลล่าสุดไม่ได้'); }
+    renderAll();
+  }
+  let rT; let lastW=0;
+  window.addEventListener('resize',()=>{clearTimeout(rT);rT=setTimeout(()=>{const w=$('#cloudBox').clientWidth;if(Math.abs(w-lastW)>8){lastW=w;layoutCloud()}},200)});
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(()=>layoutCloud());
+  setInterval(()=>{if(!document.hidden)loadStats()},REFRESH_MS);
+
+  /* ================= FORM ================= */
+  $('#story').addEventListener('input',()=>{$('#cnt').textContent=$('#story').value.length});
+  const TOTAL=2, MIN_STORY=15, COOLDOWN_MS=20000;
   function upd(){
     $('#cnt').textContent=$('#story').value.length;
     let n=0;
-    if($('#title').value.trim().length>=3)n++;
-    if($('#story').value.trim().length>=20)n++;
-    if($('input[name=role]:checked'))n++;
-    if($('#name').value.trim())n++;
-    if(/^0\d{9}$/.test($('#phone').value.replace(/\D/g,'')))n++;
-    if($('#pdpa').checked)n++;
+    if(pickedTags().length||customVal().length>=2)n++;
+    if($('#story').value.trim().length>=MIN_STORY)n++;
     $('#bar').style.width=(n/TOTAL*100)+'%';
     $('#progTxt').textContent=n+'/'+TOTAL;
     $('.prog').setAttribute('aria-valuenow',Math.round(n/TOTAL*100));
   }
 
-  /* ---------- draft autosave (กันข้อมูลหายตอนสลับแอปบนมือถือ) ---------- */
-  const DKEY='gpDraft', FIELDS=['title','story','hrs','ppl','wage','industry','team','name','phone','email','line'];
+  /* draft autosave */
+  const DKEY='gpDraft3';
   let saveT;
   function save(){clearTimeout(saveT);saveT=setTimeout(()=>{
-    const d={};FIELDS.forEach(id=>d[id]=$('#'+id).value);
-    d.impact=$$('input[name=impact]:checked').map(i=>i.value);
-    const r=$('input[name=role]:checked'); d.role=r?r.value:'';
-    store.set(DKEY,d); $('#draft').textContent='✓ บันทึกร่างอัตโนมัติแล้ว';
+    store.set(DKEY,{story:$('#story').value,customTag:$('#customTag').value,tags:pickedTags(),other:customOn(),impact:$$('input[name=impact]:checked').map(i=>i.value)});
+    $('#draft').textContent='✓ บันทึกร่างอัตโนมัติแล้ว';
   },500)}
   (function restore(){
     const d=store.get(DKEY); if(!d) return;
-    FIELDS.forEach(id=>{if(d[id]!=null&&d[id]!=='')$('#'+id).value=d[id]});
-    (d.impact||[]).forEach(v=>{const i=$(`input[name=impact][value="${CSS.escape(v)}"]`);if(i)i.checked=true});
-    if(d.role){const i=$(`input[name=role][value="${CSS.escape(d.role)}"]`);if(i)i.checked=true}
-    if(d.title||d.story) $('#draft').textContent='↺ กู้ข้อมูลที่กรอกค้างไว้ให้แล้ว';
+    if(d.story)$('#story').value=d.story; if(d.customTag)$('#customTag').value=d.customTag;
+    (d.impact||[]).forEach(v=>{const i=$$('input[name=impact]').find(x=>x.value===v);if(i)i.checked=true});
+    (d.tags||[]).forEach(v=>{const i=$$('input[name=tag]').find(x=>x.value===v);if(i)i.checked=true});
+    if(d.other)$('#tagOther').checked=true;
+    if(d.story) $('#draft').textContent='↺ กู้ข้อมูลที่กรอกค้างไว้ให้แล้ว';
   })();
 
   const onEdit=e=>{upd();save();const f=e.target.closest('.field');if(f)f.classList.remove('bad')};
   $('#gform').addEventListener('input',onEdit);
   $('#gform').addEventListener('change',onEdit);
 
-  /* ---------- validate ---------- */
   function validate(){
     const bad=[];
     const chk=(el,ok)=>{const f=el.closest('.field');f.classList.toggle('bad',!ok);if(!ok)bad.push(f)};
-    chk($('#title'),$('#title').value.trim().length>=3);
-    chk($('#story'),$('#story').value.trim().length>=20);
-    chk($('#role'),!!$('input[name=role]:checked'));
-    chk($('#name'),$('#name').value.trim().length>=1);
-    chk($('#phone'),/^0\d{9}$/.test($('#phone').value.replace(/\D/g,'')));
-    const em=$('#email').value.trim(); chk($('#email'),!em||/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em));
-    chk($('#pdpa'),$('#pdpa').checked);
+    chk($('#tagBox'),pickedTags().length>0||customVal().length>=2);
+    chk($('#story'),$('#story').value.trim().length>=MIN_STORY);
     return bad;
   }
 
-  function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('on');clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('on'),2400)}
-
-  /* ---------- ticket number GP-1234 ---------- */
   function newTicket(){
     const used=new Set((store.get('giantProblems')||[]).map(r=>r.no));
     let no; do{ no='GP-'+String(Math.floor(1000+Math.random()*9000)); }while(used.has(no));
     return no;
   }
-  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let lastNo='';
 
-  /* ---------- submit ---------- */
+  /* ================= SUBMIT ================= */
   let busy=false;
   async function handleSubmit(e){
     if(e&&e.preventDefault) e.preventDefault();
@@ -869,89 +896,76 @@ if(!SUBMIT_ENDPOINT) console.warn('[Giant Problem] ยังไม่ได้�
     const bad=validate();
     if(bad.length){
       bad[0].scrollIntoView({behavior:'smooth',block:'center'});
-      const inp=bad[0].querySelector('input:not([type=radio]):not([type=checkbox]),textarea'); if(inp) setTimeout(()=>inp.focus({preventScroll:true}),400);
-      toast('กรอกข้อมูลที่จำเป็นให้ครบก่อนนะ ('+bad.length+' ช่อง)');return;
+      if(bad[0].querySelector('textarea')) setTimeout(()=>$('#story').focus({preventScroll:true}),400);
+      toast(bad.length>1?'เลือกประเภทปัญหา และเล่ารายละเอียดก่อนนะ':(bad[0].querySelector('#tagBox')?'เลือกประเภทปัญหาอย่างน้อย 1 ข้อ':'เล่าเพิ่มอีกนิดนะ'));return;
     }
+    const lastAt=+(store.get('gpLastAt')||0);
+    if(Date.now()-lastAt<COOLDOWN_MS){toast('เพิ่งส่งไปเมื่อกี้ รอสักครู่แล้วค่อยส่งเรื่องใหม่นะ');return}
     const btn=$('#sendBtn'); btn.disabled=true; btn.textContent='กำลังส่ง...';
-    const {yr,days,h,p,w,cost,size}=est();
     const no=newTicket();
-    const rec={no,submittedAt:new Date().toISOString(),source:src,
-      title:$('#title').value.trim(),story:$('#story').value.trim(),
-      impact:$$('input[name=impact]:checked').map(i=>i.value),
-      hoursPerWeek:h,people:p,hourlyWage:w,hoursPerYear:yr,problemCostPerYear:cost,giantSize:size,
-      role:$('input[name=role]:checked').value,industry:$('#industry').value,teamSize:$('#team').value,
-      name:$('#name').value.trim(),phone:$('#phone').value.replace(/\D/g,''),
-      email:$('#email').value.trim(),lineId:$('#line').value.trim(),hp:$('#hp').value,
-      pdpaConsent:true,contentConsent:$('#share').checked,userAgent:navigator.userAgent.slice(0,120)};
+    const tags=pickedTags(), customTag=customVal();
+    const rec={no,submittedAt:new Date().toISOString(),source:src,tags,customTag,
+      story:$('#story').value.trim(),impact:$$('input[name=impact]:checked').map(i=>i.value),hp:$('#hp').value};
     try{
       if(SUBMIT_ENDPOINT){
         await fetch(SUBMIT_ENDPOINT,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(rec)});
-      }else{
-        await new Promise(r=>setTimeout(r,700)); // demo delay
-      }
-      const all=store.get('giantProblems')||[]; all.push(rec); store.set('giantProblems',all);
+      }else{ await new Promise(r=>setTimeout(r,700)); }
+      const all=store.get('giantProblems')||[]; all.push({no,tags,customTag,at:rec.submittedAt}); store.set('giantProblems',all.slice(-50));
+      store.set('gpLastAt',Date.now());
     }catch(err){
       btn.disabled=false; btn.textContent='ส่งปัญหายักษ์ 🚀';
       toast('ส่งไม่สำเร็จ ลองเช็กอินเทอร์เน็ตแล้วกดส่งอีกครั้ง'); return;
     }
     lastNo=no;
+    state.total++; tags.forEach(t=>state.tags[t]=(state.tags[t]||0)+1);
+    state.mine=[...tags]; if(customTag){const k=customTag.toLowerCase(); state.mine.push(k); if(state.custom[k]) state.custom[k]++;}
     $('#tNo').textContent=no;
+    lastSent={tags,customTag};
+    renderAll();
+    setTimeout(()=>{if(SUBMIT_ENDPOINT) loadStats()},3500);
+    const ex=rec.story.length>120?rec.story.slice(0,120)+'…':rec.story;
     $('#recap').innerHTML=[
-      ['ปัญหายักษ์',esc(rec.title)],
-      ['ผลกระทบ',rec.impact.length?esc(rec.impact.join(', ')):'-'],
-      ['เวลาที่เสียไป',yr.toLocaleString('th-TH')+' ชม./ปี'],
-      ['ต้นทุนของปัญหา',baht(cost)+'/ปี'],
-      ['ประเภทผู้ส่ง',esc(rec.role)],
-      ['ติดต่อกลับ',esc(rec.name)+' · '+rec.phone.replace(/(\d{3})(\d{3})(\d{4})/,'$1-$2-$3')]
+      ['ประเภทปัญหา',esc([...tags,customTag].filter(Boolean).join(', '))],
+      ['เรื่องที่เล่า',esc(ex)],
+      ['ผลกระทบ',rec.impact.length?esc(rec.impact.join(', ')):'-']
     ].map(([a,b])=>`<div><span>${a}</span><b>${b}</b></div>`).join('');
-    const S=SIZES[size], D=$('#done');
-    D.dataset.size=size;
-    $('#thxName').textContent='คุณ'+rec.name.replace(/^คุณ\s*/,'')+' 💜';
-    $('#say').textContent=S.say;
-    $('#szBig').textContent=size; $('#szNick').textContent=S.nick; $('#szTitle').textContent=S.title; $('#szMsg').textContent=S.msg;
-    $$('.meter3 span').forEach(x=>x.classList.toggle('on',x.dataset.s===size));
-    $('#stHrs').textContent=yr.toLocaleString('th-TH'); $('#stCost').textContent=baht(cost);
-    $('#pbSize').textContent=size+' · '+S.nick; $('#pbDisc').textContent=S.disc; $('#pbPerk').textContent='+ '+S.perk;
-    $('#nextTxt').textContent=`ยืนยันไซซ์ ${size} รับโค้ดส่วนลด ${S.disc} + 1 สิทธิ์ลุ้นรางวัล`;
     $('#lineBtn').href='https://social-plugins.line.me/lineit/share?url='+encodeURIComponent(shareUrl());
-    $('#gform').style.display='none';
-    D.classList.remove('revealed'); D.classList.add('on','measuring');
+    $('#gform').style.display='none'; $('#done').classList.add('on');
     $('#formSub').textContent='ส่งเรียบร้อย ขอบคุณที่เล่าให้เราฟัง';
     $('#bar').style.width='100%'; $('#progTxt').textContent='✓';
     store.del(DKEY);
     $('#formCard').scrollIntoView({behavior:'smooth',block:'start'});
-    const calm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
-    setTimeout(()=>{D.classList.remove('measuring');D.classList.add('revealed');D.focus({preventScroll:true})},calm?0:1600);
+    setTimeout(()=>$('#done').focus({preventScroll:true}),500);
     btn.disabled=false; btn.textContent='ส่งปัญหายักษ์ 🚀';
   }
-  // ใช้ปุ่มคลิกตรง ๆ ไม่พึ่ง form submit (บางหน้าพรีวิว / iframe บล็อก submit ทำให้กดแล้วเงียบ)
   $('#sendBtn').addEventListener('click',handleSubmit);
   $('#gform').addEventListener('submit',e=>{e.preventDefault();handleSubmit()});
   $('#gform').addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.tagName==='INPUT'&&e.target.type!=='checkbox'&&e.target.type!=='radio')e.preventDefault()});
 
-  /* ---------- after submit ---------- */
+  /* ================= AFTER SUBMIT ================= */
   function shareUrl(){return location.origin+location.pathname+'?src=share'}
   $('#copyNo').onclick=async()=>{try{await navigator.clipboard.writeText(lastNo);toast('คัดลอก '+lastNo+' แล้ว')}catch(e){toast(lastNo)}};
   $('#shareBtn').onclick=async()=>{
-    const url=shareUrl(), sz=$('#done').dataset.size||'';
-    const data={title:'รับสมัครปัญหายักษ์ — BaNANA × Amazon Quick',text:`ยักษ์ของเราไซซ์ ${sz}! แล้วยักษ์ของคุณไซซ์ไหน? ส่งปัญหาธุรกิจให้ Amazon Quick ช่วยหาคำตอบ ร่วมฟรี ไม่ถึง 3 นาที`,url};
+    const url=shareUrl(), top=cloudItems()[0];
+    const text=top&&top.c>0?`ตอนนี้ปัญหาที่ธุรกิจเจอเยอะที่สุดคือ “${top.w}” แล้วยักษ์ของคุณคืออะไร? ส่งมาให้ Amazon Quick ช่วยหาคำตอบ ร่วมฟรี ไม่ถึง 3 นาที`:'มีปัญหาธุรกิจหนักใจ? ส่งมาให้ Amazon Quick ช่วยหาคำตอบ ร่วมฟรี ไม่ถึง 3 นาที';
+    const data={title:'รับสมัครปัญหายักษ์ — BaNANA × Amazon Quick',text,url};
     if(navigator.share){try{await navigator.share(data)}catch(e){}return}
-    try{await navigator.clipboard.writeText(data.text+' '+url);toast('คัดลอกลิงก์แล้ว ส่งให้เพื่อนได้เลย')}catch(e){toast(url)}
+    try{await navigator.clipboard.writeText(text+' '+url);toast('คัดลอกลิงก์แล้ว ส่งให้เพื่อนได้เลย')}catch(e){toast(url)}
   };
   $('#againBtn').onclick=()=>{
-    ['title','story'].forEach(id=>$('#'+id).value='');
-    $$('input[name=impact]').forEach(i=>i.checked=false);
-    $('#done').classList.remove('on','measuring','revealed'); $('#gform').style.display='';
-    $('#formSub').textContent='เรื่องใหม่ — ข้อมูลติดต่อเดิมยังอยู่ แก้ได้';
+    ['story','customTag'].forEach(id=>$('#'+id).value='');
+    $$('input[name=impact],input[name=tag],#tagOther').forEach(i=>i.checked=false);
+    syncTags();
+    lastSent=null; $('#done').classList.remove('on'); $('#gform').style.display='';
+    $('#formSub').textContent='เรื่องใหม่ — เลือกประเภทแล้วเล่าได้เลย';
     $('#draft').textContent=''; upd();
     $('#formCard').scrollIntoView({behavior:'smooth',block:'start'});
-    setTimeout(()=>$('#title').focus({preventScroll:true}),450);
   };
 
-  /* ---------- FAQ ---------- */
+  /* FAQ */
   $$('.fq-q').forEach(q=>q.onclick=()=>{const o=q.parentElement.classList.toggle('open');q.setAttribute('aria-expanded',o)});
 
-  /* ---------- hide sticky CTA while hero CTA / form visible ---------- */
+  /* sticky CTA hide while hero CTA / form visible */
   const m=$('#mcta');
   if('IntersectionObserver' in window){
     const vis=new Set();
@@ -959,7 +973,8 @@ if(!SUBMIT_ENDPOINT) console.warn('[Giant Problem] ยังไม่ได้�
     io.observe($('#submit')); io.observe($('.hero-cta'));
   }
 
-  est(); upd();
+  syncTags(); upd();
+  lastW=$('#cloudBox').clientWidth; renderAll(); loadStats();
 })();
 </script>
 </body>
